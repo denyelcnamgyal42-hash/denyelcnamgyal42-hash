@@ -2,149 +2,165 @@
 
 # 👋 Hi, I'm Denyel Chokey Namgyal
 
-### Computer Science Student • AI & Cybersecurity Enthusiast
+### Computer Science Student • Bhutan 🇧🇹
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=1200&center=true&vCenter=true&width=800&lines=Building+secure+and+intelligent+applications.;Learning+AI%2C+Cybersecurity%2C+and+Software+Engineering.;Always+curious.+Always+building." />
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=denyelcnamgyal42-hash&label=Profile+Views&style=flat-square" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3500&pause=1000&center=true&vCenter=true&width=700&lines=Learning+by+building.;Artificial+Intelligence.;Cybersecurity.;Software+Engineering." />
 
 </div>
 
 ---
 
-## About Me
+```console
+$ neofetch
+```
 
-I'm a Computer Science student from **Bhutan** with a strong interest in **Artificial Intelligence**, **Cybersecurity**, and **Software Engineering**.
-
-I enjoy learning by building real projects—from AI applications to security research labs—and I'm always looking for opportunities to improve my skills and understand how modern systems are designed.
-
-Outside of coding, I enjoy exploring new technologies, solving technical challenges, and turning ideas into practical projects.
+`````text
+                   -`                     denyel@github
+                  .o+`                    -----------------------------
+                 `ooo/                    Role: Computer Science Student
+                `+oooo:                   Location: Bhutan 🇧🇹
+               `+oooooo:                  Interests: AI • Cybersecurity
+               -+oooooo+:                 Editor: VS Code
+             `/:-:++oooo+:                OS: Linux & Windows
+            `/++++/+++++++:               Shell: bash
+           `/++++++++++++++:              Status: Learning every day
+          `/+++ooooooooooooo/`
+         ./ooosssso++osssssso+`
+        .oossssso-````/ossssss+`
+       -osssssso.      :ssssssso.
+      :osssssss/        osssso+++.
+     /ossssssss/        +ssssooo/-
+   `/ossssso+/:-        -:/+osssso+-
+  `+sso+:-`                 `.-/+oso:
+ `++:.                           `-/+/
+ .`                                  `
+`````
 
 ---
 
-## 🌱 Currently Working On
+```console
+$ whoami
+```
 
-- 🛡️ SentinelAI — AI-assisted vulnerability assessment platform
-- 🔐 Password Security Research Lab
-- 🤖 AI applications using Retrieval-Augmented Generation (RAG)
-- 📚 Improving my cybersecurity and penetration testing skills
+I'm a Computer Science student who enjoys building practical projects in **Artificial Intelligence**, **Cybersecurity**, and **Software Engineering**.
+
+Most of what I learn comes from building things, breaking them in controlled environments, understanding why they work, and improving them.
 
 ---
 
-## 🚀 Featured Projects
+```console
+$ ls projects/
+```
+
+```text
+📁 password-security-research-lab
+📁 sentinel-ai
+📁 until-then
+📁 ai-projects
+```
 
 ### 🔐 Password Security Research Lab
 
-A controlled cybersecurity research project exploring password security using synthetic datasets.
-
-**Highlights**
-
-- Password hashing with MD5, SHA-256, bcrypt, and Argon2id
-- Dictionary attack simulations using John the Ripper
-- Password policy evaluation
-- Security recommendations based on experimental results
+Researching password security using synthetic datasets, secure hashing algorithms, and ethical password-cracking experiments.
 
 ---
 
 ### 🛡️ SentinelAI _(Work in Progress)_
 
-An AI-assisted platform for authorized web application security assessments.
-
-Current focus:
-
-- Vulnerability analysis
-- AI-assisted reporting
-- Secure software design
-- Professional assessment workflows
+Building an AI-assisted vulnerability assessment platform for authorized web application security testing.
 
 ---
 
 ### 📖 Until Then
 
-A digital time capsule where two people can securely store memories and reveal them together on a future date.
+A digital time capsule where shared memories stay sealed until a future date.
 
 ---
 
-### 🤖 AI & Machine Learning Projects
+### 🤖 AI Projects
 
-A collection of projects exploring:
-
-- Machine Learning
-- Natural Language Processing
-- Computer Vision
-- Retrieval-Augmented Generation (RAG)
-- Data Analysis
+Exploring machine learning, computer vision, natural language processing, and retrieval-augmented generation (RAG).
 
 ---
 
-## 📈 GitHub Stats
+```console
+$ cat currently_learning.txt
+```
 
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=denyelcnamgyal42-hash&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=denyelcnamgyal42-hash&layout=compact&theme=tokyonight&hide_border=true" />
-
-</div>
+```text
+• Artificial Intelligence
+• Cybersecurity
+• Secure Software Development
+• Cloud Computing
+• System Design
+```
 
 ---
 
-## 📊 Contribution Activity
+```console
+$ git status
+```
 
-<div align="center">
+```text
+On branch main
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=denyelcnamgyal42-hash&theme=tokyo-night&hide_border=true" />
+Currently building:
+✔ Password Security Research Lab
+✔ SentinelAI
+✔ New AI projects
 
-</div>
+Always looking for the next challenge.
+```
+
+---
+
+## 📈 GitHub Statistics
+
+<p align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=denyelcnamgyal42-hash&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=denyelcnamgyal42-hash&layout=compact&theme=github_dark&hide_border=true"/>
+</p>
+
+---
+
+## 📊 Contribution Graph
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=denyelcnamgyal42-hash&theme=github-dark&hide_border=true"/>
+</p>
 
 ---
 
 ## 🐍 Contribution Snake
 
-> _This section will appear after the GitHub Action is configured._
+> Configure the GitHub Action once, and this animation will update automatically.
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake" />
-
-</div>
+<p align="center">
+<img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
+</p>
 
 ---
 
-## 🎯 Goals
+```console
+$ echo $PHILOSOPHY
+```
 
-- Build meaningful AI applications
-- Learn modern cybersecurity practices
-- Contribute to open-source projects
-- Continue improving as a software engineer
-- Create technology that is both useful and secure
-
----
-
-## 📖 Currently Learning
-
-- Artificial Intelligence
-- Cybersecurity
-- Secure Software Development
-- Cloud Technologies
-- System Design
+```text
+"Build things.
+Break things ethically.
+Learn from both."
+```
 
 ---
 
-## 💭 A Thought I Like
+```console
+$ exit
+```
 
-> _"The best way to learn is to build something that challenges you."_
+```text
+Thanks for stopping by.
 
----
-
-<div align="center">
-
-### Thanks for stopping by!
-
-I'm always learning, building, and improving one project at a time.
-
-⭐ Feel free to explore my repositories.
-
-</div>
+See you in the next commit.
+👋
+```
