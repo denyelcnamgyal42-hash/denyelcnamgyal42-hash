@@ -2,114 +2,122 @@
 
 # 👋 Hi, I'm Denyel Chokey Namgyal
 
-### Computer Science Student • Bhutan 🇧🇹
+**Computer Science Student • Bhutan 🇧🇹**
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3500&pause=1000&center=true&vCenter=true&width=700&lines=Learning+by+building.;Artificial+Intelligence.;Cybersecurity.;Software+Engineering." />
+_Learning by building practical AI and cybersecurity projects._
 
 </div>
 
 ---
 
 ```console
-$ neofetch
-```
-
-`````text
-                   -`                     denyel@github
-                  .o+`                    -----------------------------
-                 `ooo/                    Role: Computer Science Student
-                `+oooo:                   Location: Bhutan 🇧🇹
-               `+oooooo:                  Interests: AI • Cybersecurity
-               -+oooooo+:                 Editor: VS Code
-             `/:-:++oooo+:                OS: Linux & Windows
-            `/++++/+++++++:               Shell: bash
-           `/++++++++++++++:              Status: Learning every day
-          `/+++ooooooooooooo/`
-         ./ooosssso++osssssso+`
-        .oossssso-````/ossssss+`
-       -osssssso.      :ssssssso.
-      :osssssss/        osssso+++.
-     /ossssssss/        +ssssooo/-
-   `/ossssso+/:-        -:/+osssso+-
-  `+sso+:-`                 `.-/+oso:
- `++:.                           `-/+/
- .`                                  `
-`````
-
----
-
-```console
-$ whoami
-```
-
-I'm a Computer Science student who enjoys building practical projects in **Artificial Intelligence**, **Cybersecurity**, and **Software Engineering**.
-
-Most of what I learn comes from building things, breaking them in controlled environments, understanding why they work, and improving them.
-
----
-
-```console
-$ ls projects/
+denyel@github:~$ whoami
 ```
 
 ```text
-📁 password-security-research-lab
-📁 sentinel-ai
-📁 until-then
-📁 ai-projects
+Denyel Chokey Namgyal
+
+Computer Science student with a passion for Artificial Intelligence,
+Cybersecurity, and Software Engineering.
+
+I enjoy understanding how systems work, building practical software,
+and improving my skills through hands-on projects.
 ```
-
-### 🔐 Password Security Research Lab
-
-Researching password security using synthetic datasets, secure hashing algorithms, and ethical password-cracking experiments.
-
----
-
-### 🛡️ SentinelAI _(Work in Progress)_
-
-Building an AI-assisted vulnerability assessment platform for authorized web application security testing.
-
----
-
-### 📖 Until Then
-
-A digital time capsule where shared memories stay sealed until a future date.
-
----
-
-### 🤖 AI Projects
-
-Exploring machine learning, computer vision, natural language processing, and retrieval-augmented generation (RAG).
 
 ---
 
 ```console
-$ cat currently_learning.txt
+denyel@github:~$ tree projects
+```
+
+```text
+projects
+├── 🔐 password-security-research-lab
+├── 🛡️ sentinel-ai
+├── 📖 until-then
+└── 🤖 ai-projects
+```
+
+## 🔐 Password Security Research Lab
+
+A cybersecurity research project exploring password security using synthetic datasets and ethical password-cracking experiments.
+
+**Topics**
+
+- Password hashing
+- bcrypt & Argon2id
+- John the Ripper
+- Password policies
+- Secure password storage
+- Performance benchmarking
+
+---
+
+## 🛡️ SentinelAI _(Work in Progress)_
+
+Building an AI-assisted vulnerability assessment platform for authorized web application security testing.
+
+Current areas of focus:
+
+- Vulnerability analysis
+- AI-assisted reporting
+- Secure application architecture
+- Modern web security
+
+---
+
+## 📖 Until Then
+
+A digital time capsule where shared memories remain sealed until a chosen future date.
+
+---
+
+## 🤖 AI Projects
+
+Exploring:
+
+- Machine Learning
+- Computer Vision
+- Natural Language Processing
+- Retrieval-Augmented Generation (RAG)
+
+---
+
+```console
+denyel@github:~$ cat currently-learning.txt
 ```
 
 ```text
 • Artificial Intelligence
+
 • Cybersecurity
+
 • Secure Software Development
+
 • Cloud Computing
+
 • System Design
 ```
 
 ---
 
 ```console
-$ git status
+denyel@github:~$ git status
 ```
 
 ```text
 On branch main
 
 Currently building:
-✔ Password Security Research Lab
-✔ SentinelAI
-✔ New AI projects
 
-Always looking for the next challenge.
+✔ Password Security Research Lab
+
+✔ SentinelAI
+
+✔ AI Projects
+
+nothing to commit,
+still learning.
 ```
 
 ---
@@ -117,49 +125,67 @@ Always looking for the next challenge.
 ## 📈 GitHub Statistics
 
 <p align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=denyelcnamgyal42-hash&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=denyelcnamgyal42-hash&layout=compact&theme=github_dark&hide_border=true"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=denyelcnamgyal42-hash&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=denyelcnamgyal42-hash&layout=compact&theme=github_dark&hide_border=true"/>
+
 </p>
 
 ---
 
-## 📊 Contribution Graph
+## 📊 Contribution Activity
 
 <p align="center">
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=denyelcnamgyal42-hash&theme=github-dark&hide_border=true"/>
+
 </p>
 
 ---
 
 ## 🐍 Contribution Snake
 
-> Configure the GitHub Action once, and this animation will update automatically.
-
 <p align="center">
+
 <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
+
 </p>
 
 ---
 
 ```console
-$ echo $PHILOSOPHY
+denyel@github:~$ echo $MISSION
 ```
 
 ```text
-"Build things.
-Break things ethically.
-Learn from both."
+Build secure and intelligent software that solves real-world problems.
 ```
 
 ---
 
 ```console
-$ exit
+denyel@github:~$ git log --oneline
 ```
 
 ```text
-Thanks for stopping by.
+✔ Learn continuously
+
+✔ Build meaningful projects
+
+✔ Share knowledge
+
+✔ Improve a little every day
+```
+
+---
+
+```console
+denyel@github:~$ exit
+```
+
+```text
+Thanks for visiting.
 
 See you in the next commit.
 👋
