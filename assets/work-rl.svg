@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="188" viewBox="0 0 620 188" role="img" aria-labelledby="title">
+  <title id="title">RL Snake</title>
+  <style>
+    .panel { fill: #121821; stroke: #c9a84c; stroke-opacity: 0.35; }
+    .kicker { fill: #9aafc0; }
+    .title { fill: #f4efe4; }
+    .body { fill: #b7c4d0; }
+    .spine { fill: #c9a84c; }
+    .cell { fill: none; stroke: #c9a84c; stroke-opacity: 0.28; }
+    .path { fill: none; stroke: #c9a84c; }
+    .head { fill: #3d6b56; }
+    @media (prefers-color-scheme: light) {
+      .panel { fill: #f6f1e6; stroke: #8a6a1a; stroke-opacity: 0.4; }
+      .kicker { fill: #6b5c45; }
+      .title { fill: #1c1914; }
+      .body { fill: #4a453c; }
+      .spine { fill: #8a6a1a; }
+      .cell { stroke: #8a6a1a; stroke-opacity: 0.3; }
+      .path { stroke: #8a6a1a; }
+      .head { fill: #3d6b56; }
+    }
+  </style>
+  <rect class="panel" x="1" y="1" width="618" height="186" rx="12" stroke-width="1"/>
+  <rect class="spine" x="1" y="28" width="4" height="130"/>
+  <text class="kicker" x="28" y="36" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2.1">MACHINE LEARNING  |  PYTHON</text>
+  <text class="title" x="28" y="70" font-family="Georgia, 'Times New Roman', serif" font-size="24">RL Snake</text>
+  <text class="body" x="28" y="104" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">An agent learning a game I can watch. Reward, failure,</text>
+  <text class="body" x="28" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">and what learning looks like on a board this small.</text>
+  <g transform="translate(454, 118)">
+    <rect class="cell" x="0" y="0" width="14" height="14"/>
+    <rect class="cell" x="16" y="0" width="14" height="14"/>
+    <rect class="cell" x="32" y="0" width="14" height="14"/>
+    <rect class="cell" x="48" y="0" width="14" height="14"/>
+    <rect class="cell" x="64" y="0" width="14" height="14"/>
+    <rect class="cell" x="80" y="0" width="14" height="14"/>
+    <rect class="cell" x="0" y="16" width="14" height="14"/>
+    <rect class="cell" x="16" y="16" width="14" height="14"/>
+    <rect class="cell" x="32" y="16" width="14" height="14"/>
+    <rect class="cell" x="48" y="16" width="14" height="14"/>
+    <rect class="cell" x="64" y="16" width="14" height="14"/>
+    <rect class="cell" x="80" y="16" width="14" height="14"/>
+    <rect class="cell" x="0" y="32" width="14" height="14"/>
+    <rect class="cell" x="16" y="32" width="14" height="14"/>
+    <rect class="cell" x="32" y="32" width="14" height="14"/>
+    <rect class="cell" x="48" y="32" width="14" height="14"/>
+    <rect class="cell" x="64" y="32" width="14" height="14"/>
+    <rect class="cell" x="80" y="32" width="14" height="14"/>
+    <path class="path" d="M7 39 H23 V23 H55 V7 H87" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect class="head" x="80" y="0" width="14" height="14"/>
+  </g>
+</svg>

@@ -1,7 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="180" viewBox="0 0 1280 180" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="title">
   <title id="title">Denyel Chokey Namgyal</title>
-  <rect width="1280" height="180" fill="#ffffff"/>
-  <line x1="0" y1="1" x2="1280" y2="1" stroke="#8a6a1a" stroke-width="2"/>
-  <text x="48" y="92" fill="#1c1914" font-family="Georgia, 'Times New Roman', serif" font-size="36">Denyel Chokey Namgyal</text>
-  <text x="48" y="128" fill="#6b5c45" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="2.2">COMPUTER SCIENCE  ·  BHUTAN</text>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0.1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#eadfc8"/>
+    </linearGradient>
+    <pattern id="weave" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M14 2 L26 14 L14 26 L2 14 Z" fill="none" stroke="#8a6a1a" stroke-width="0.7"/>
+    </pattern>
+    <pattern id="band" width="22" height="18" patternUnits="userSpaceOnUse">
+      <rect x="7" y="5" width="8" height="8" fill="#8a6a1a" transform="rotate(45 11 9)"/>
+    </pattern>
+    <style>
+      @keyframes breathe {
+        0%, 100% { opacity: 0.08; }
+        50% { opacity: 0.18; }
+      }
+      .weave { animation: breathe 8s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .weave { animation: none; opacity: 0.12; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1280" height="300" fill="url(#paper)"/>
+  <rect class="weave" width="1280" height="300" fill="url(#weave)"/>
+  <rect width="1280" height="2" fill="#8a6a1a"/>
+
+  <text x="56" y="72" fill="#6b5c45" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="3.4">BHUTAN  |  COMPUTER SCIENCE</text>
+  <text x="56" y="124" fill="#1c1914" font-family="Georgia, 'Times New Roman', serif" font-size="38">Denyel Chokey Namgyal</text>
+  <text x="56" y="164" fill="#8a6a1a" font-family="Georgia, 'Times New Roman', serif" font-size="17">I study how intelligent systems work,</text>
+  <text x="56" y="190" fill="#8a6a1a" font-family="Georgia, 'Times New Roman', serif" font-size="17">and how to keep them honest.</text>
+
+  <rect x="776" y="48" width="448" height="196" rx="10" fill="#fffaf0" fill-opacity="0.72" stroke="#8a6a1a" stroke-opacity="0.35"/>
+  <text x="800" y="78" fill="#6b5c45" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2.2">PASSWORD LAB  |  1000 SYNTHETIC ACCOUNTS</text>
+
+  <text x="800" y="112" fill="#4a453c" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">MD5</text>
+  <rect x="888" y="100" width="270" height="12" rx="2" fill="#8b4a3a"/>
+  <text x="1166" y="112" fill="#1c1914" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">172</text>
+
+  <text x="800" y="140" fill="#4a453c" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">SHA-256</text>
+  <rect x="888" y="128" width="270" height="12" rx="2" fill="#8b4a3a"/>
+  <text x="1166" y="140" fill="#1c1914" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">172</text>
+
+  <text x="800" y="168" fill="#4a453c" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">bcrypt</text>
+  <rect x="888" y="156" width="102" height="12" rx="2" fill="#c9a84c"/>
+  <text x="1166" y="168" fill="#1c1914" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">65</text>
+
+  <text x="800" y="196" fill="#4a453c" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Argon2id</text>
+  <rect x="888" y="184" width="96" height="12" rx="2" fill="#3d6b56"/>
+  <text x="1166" y="196" fill="#1c1914" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">61</text>
+
+  <text x="800" y="226" fill="#6b5c45" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11">recovered under the same dictionary attack</text>
+
+  <rect x="0" y="282" width="1280" height="18" fill="url(#band)" opacity="0.7"/>
 </svg>
