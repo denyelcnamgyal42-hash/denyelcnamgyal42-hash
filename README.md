@@ -1,25 +1,17 @@
-<a href="https://github.com/denyelcnamgyal42-hash/password-security-research-lab">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/plate-dark.svg">
-    <img src="./assets/plate-light.svg" alt="Password lab diptych: each square is one of 1000 synthetic accounts. MD5 recovered 172; Argon2id recovered 61. Same dictionary, isolated lab, no real credentials." width="100%">
-  </picture>
-</a>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/dial-dark.svg">
+  <img src="./assets/dial-light.svg" alt="Denyel Chokey Namgyal. A sealed dial. The aperture holds 14:42, when this account began. Only the seconds move." width="100%">
+</picture>
 
-I study how intelligent systems work, and how to keep them honest.
+Computer science student in Bhutan. I work on intelligent systems that stay closed until they should open.
 
-Computer Science student in Bhutan. I work where artificial intelligence, cybersecurity, and software engineering meet.
+1. Same dictionary, two hashes, 1000 synthetic accounts. MD5 recovered 172; Argon2id recovered 61. Isolated lab, no real credentials. **[Password Security Research Lab](https://github.com/denyelcnamgyal42-hash/password-security-research-lab)**
 
-**[Password Security Research Lab](https://github.com/denyelcnamgyal42-hash/password-security-research-lab)**  
-Hashing under dictionary attack. The figure is the measured result.
+2. Shared memories stay sealed until a date you choose. Until Then is a digital time capsule.
 
-**SentinelAI**  
-AI-assisted vulnerability assessment for authorized web application testing. In progress.
+3. SentinelAI is an AI-assisted vulnerability assessment for authorized web application testing. In progress.
 
-**Until Then**  
-A digital time capsule. Shared memories stay sealed until a date you choose.
-
-**[RL Snake](https://github.com/denyelcnamgyal42-hash/snake_game_reinforcement_learning)**  
-A reinforcement-learning agent in a game I can watch.
+A reinforcement-learning agent in a game I can watch: **[RL Snake](https://github.com/denyelcnamgyal42-hash/snake_game_reinforcement_learning)**.
 
 Now: LLMs, RAG, secure applications, cloud, and system design.
 
