@@ -87,6 +87,6 @@ I learn by running experiments. A controlled study is more useful to me than ano
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="Contribution graph, animated" />
-  <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="Contribution graph, animated" />
+  <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="Contribution graph, animated" width="100%" />
+  <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="Contribution graph, animated" width="100%" />
 </p>
