@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Denyel Chokey Namgyal</title>
+  <desc id="desc">Computer Science student from Bhutan, working in intelligence, security, and software.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="0.15" y2="1">
+      <stop offset="0%" stop-color="#f8f3e8"/>
+      <stop offset="100%" stop-color="#efe4cf"/>
+    </linearGradient>
+    <linearGradient id="slope" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a6a1a" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#8a6a1a" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#paper)"/>
+
+  <g fill="none" stroke="#8a6a1a" stroke-width="1" stroke-opacity="0.18">
+    <path d="M-20 248 C 80 238, 140 210, 230 218 C 340 228, 390 188, 500 198 C 620 210, 680 168, 790 178 C 900 188, 980 150, 1220 158"/>
+    <path d="M-20 228 C 90 216, 160 186, 250 196 C 360 208, 420 164, 530 176 C 650 190, 710 146, 820 158 C 930 170, 1010 128, 1220 138"/>
+    <path d="M-20 208 C 100 194, 170 164, 270 176 C 380 190, 450 146, 560 158 C 680 172, 740 128, 850 140 C 960 152, 1040 110, 1220 122"/>
+  </g>
+
+  <path d="M0 252 C 140 238, 210 198, 330 208 C 470 220, 520 168, 680 182 C 820 196, 890 148, 1030 162 C 1110 172, 1160 154, 1200 148 L 1200 300 L 0 300 Z" fill="url(#slope)"/>
+  <path d="M0 252 C 140 238, 210 198, 330 208 C 470 220, 520 168, 680 182 C 820 196, 890 148, 1030 162 C 1110 172, 1160 154, 1200 148" fill="none" stroke="#8a6a1a" stroke-width="1.6"/>
+
+  <rect x="64" y="54" width="9" height="9" fill="#8a6a1a"/>
+  <text x="84" y="63" fill="#6b5c45" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3.2">BHUTAN  ·  COMPUTER SCIENCE</text>
+
+  <text x="64" y="128" fill="#1c1914" font-family="Georgia, 'Times New Roman', serif" font-size="44">Denyel Chokey Namgyal</text>
+  <text x="64" y="168" fill="#8a6a1a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="4.4">INTELLIGENCE  ×  SECURITY  ×  SOFTWARE</text>
+</svg>
