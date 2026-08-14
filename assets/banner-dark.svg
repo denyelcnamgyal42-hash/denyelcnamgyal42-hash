@@ -1,31 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
   <title id="title">Denyel Chokey Namgyal</title>
   <desc id="desc">Computer Science student from Bhutan, working in intelligence, security, and software.</desc>
   <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0.2" y2="1">
-      <stop offset="0%" stop-color="#071018"/>
-      <stop offset="100%" stop-color="#123047"/>
-    </linearGradient>
-    <linearGradient id="slope" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#d4b45a" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#d4b45a" stop-opacity="0.02"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1017"/>
+      <stop offset="100%" stop-color="#163044"/>
     </linearGradient>
   </defs>
 
-  <rect width="1200" height="300" fill="url(#sky)"/>
+  <rect width="1280" height="380" fill="url(#bg)"/>
+  <rect width="1280" height="3" fill="#c9a84c"/>
+  <rect x="28" y="24" width="1224" height="332" fill="none" stroke="#c9a84c" stroke-opacity="0.32" stroke-width="1"/>
+  <rect x="64" y="78" width="2" height="188" fill="#c9a84c"/>
 
-  <g fill="none" stroke="#d4b45a" stroke-width="1" stroke-opacity="0.14">
-    <path d="M-20 248 C 80 238, 140 210, 230 218 C 340 228, 390 188, 500 198 C 620 210, 680 168, 790 178 C 900 188, 980 150, 1220 158"/>
-    <path d="M-20 228 C 90 216, 160 186, 250 196 C 360 208, 420 164, 530 176 C 650 190, 710 146, 820 158 C 930 170, 1010 128, 1220 138"/>
-    <path d="M-20 208 C 100 194, 170 164, 270 176 C 380 190, 450 146, 560 158 C 680 172, 740 128, 850 140 C 960 152, 1040 110, 1220 122"/>
+  <text x="88" y="96" fill="#9aafc0" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3.4">BHUTAN  |  COMPUTER SCIENCE</text>
+  <text x="88" y="168" fill="#f4efe4" font-family="Georgia, 'Times New Roman', serif" font-size="46">Denyel Chokey Namgyal</text>
+  <line x1="88" y1="188" x2="430" y2="188" stroke="#c9a84c" stroke-width="1.2"/>
+
+  <g fill="#c9a84c" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2.4">
+    <line x1="88" y1="224" x2="148" y2="224" stroke="#c9a84c" stroke-width="1"/>
+    <text x="88" y="246">INTELLIGENCE</text>
+    <line x1="268" y1="224" x2="328" y2="224" stroke="#c9a84c" stroke-width="1"/>
+    <text x="268" y="246">SECURITY</text>
+    <line x1="430" y1="224" x2="490" y2="224" stroke="#c9a84c" stroke-width="1"/>
+    <text x="430" y="246">SOFTWARE</text>
   </g>
 
-  <path d="M0 252 C 140 238, 210 198, 330 208 C 470 220, 520 168, 680 182 C 820 196, 890 148, 1030 162 C 1110 172, 1160 154, 1200 148 L 1200 300 L 0 300 Z" fill="url(#slope)"/>
-  <path d="M0 252 C 140 238, 210 198, 330 208 C 470 220, 520 168, 680 182 C 820 196, 890 148, 1030 162 C 1110 172, 1160 154, 1200 148" fill="none" stroke="#e8d48b" stroke-width="1.6"/>
-
-  <rect x="64" y="54" width="9" height="9" fill="#d4b45a"/>
-  <text x="84" y="63" fill="#9bb0c2" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="3.2">BHUTAN  ·  COMPUTER SCIENCE</text>
-
-  <text x="64" y="128" fill="#f6f1e6" font-family="Georgia, 'Times New Roman', serif" font-size="44">Denyel Chokey Namgyal</text>
-  <text x="64" y="168" fill="#d4b45a" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" letter-spacing="4.4">INTELLIGENCE  ×  SECURITY  ×  SOFTWARE</text>
+  <g transform="translate(868, 62)" fill="none" stroke="#d4b45a">
+    <line x1="154" y1="18" x2="154" y2="34" stroke-width="1" stroke-opacity="0.85"/>
+    <text x="154" y="14" fill="#d4b45a" stroke="none" font-family="Georgia, 'Times New Roman', serif" font-size="11" text-anchor="middle" letter-spacing="1.5">N</text>
+    <ellipse cx="154" cy="168" rx="26" ry="14" stroke-opacity="0.95"/>
+    <ellipse cx="154" cy="172" rx="48" ry="28" stroke-opacity="0.72"/>
+    <ellipse cx="154" cy="178" rx="74" ry="46" stroke-opacity="0.5"/>
+    <ellipse cx="154" cy="186" rx="102" ry="66" stroke-opacity="0.32"/>
+    <ellipse cx="154" cy="196" rx="132" ry="86" stroke-opacity="0.18"/>
+    <path d="M28 228 L78 168 L112 204 L154 112 L198 196 L236 150 L286 228" stroke="#e8d48b" stroke-width="1.7" stroke-linejoin="round"/>
+  </g>
 </svg>
