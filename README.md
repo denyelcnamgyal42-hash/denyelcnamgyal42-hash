@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:283457,100:1a1b26&height=180&section=header&text=denyel%20chokey%20namgyal&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=research%20notebook%20—%20AI%20/%20cybersecurity%20/%20systems&descAlignY=58&descSize=15&descColor=7aa2f7" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=650&height=40&lines=How+much+does+claimed+capability+diverge+from+verified+behavior%3F;How+cheap+is+it+to+break+something+that+looks+secure%3F;Can+a+small%2C+understandable+system+change+how+you+build+the+next%3F" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=900&color=7AA2F7&center=true&vCenter=true&width=900&height=40&lines=How+much+does+claimed+capability+diverge+from+verified+behavior%3F;How+cheap+is+it+to+break+something+that+looks+secure%3F;Can+a+small%2C+understandable+system+change+how+you+build+the+next%3F" alt="Typing SVG" />
 </a>
 
 </div>
@@ -15,7 +15,7 @@
 ### terminal
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=15&duration=3200&pause=1100&color=7DCFFF&background=1A1B26FF&center=false&vCenter=true&width=700&height=140&lines=%24+whoami;denyel+—+ai%2Fsecurity+researcher%2C+bhutan;%24+cat+open_questions.txt;how+far+does+claimed+capability+diverge+from+verified+behavior%3F;how+cheap+is+it+to+break+something+that+looks+secure%3F;can+a+small%2C+understandable+system+change+the+next+one%3F;%24+_" alt="Terminal" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=15&duration=3200&pause=1100&color=7DCFFF&background=1A1B26&center=false&vCenter=true&width=900&height=140&lines=%24+whoami;denyel+—+ai%2Fsecurity+researcher%2C+bhutan;%24+cat+open_questions.txt;how+far+does+claimed+capability+diverge+from+verified+behavior%3F;how+cheap+is+it+to+break+something+that+looks+secure%3F;can+a+small%2C+understandable+system+change+the+next+one%3F;%24+_" alt="Terminal" />
 </a>
 
 <sub>this replaces a hand-typed project list. it's a small terminal that runs your actual open questions instead of an index that needs editing every time a project starts or ships.</sub>
