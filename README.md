@@ -1,17 +1,16 @@
-## denyel chokey namgyal
-*research notebook — AI, cybersecurity, systems engineering. Bhutan.*
+<div align="center">
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:00ff41,100:0f0f0f&height=180&section=header&text=denyel%20chokey%20namgyal&fontSize=36&fontColor=00ff41&animation=fadeIn&fontAlignY=38&desc=research%20notebook%20—%20AI%20/%20cybersecurity%20/%20systems&descAlignY=58&descSize=15&descColor=39ff14" width="100%"/>
 
-### open questions
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=900&color=39FF14&center=true&vCenter=true&width=650&height=40&lines=How+much+does+claimed+capability+diverge+from+verified+behavior%3F;How+cheap+is+it+to+break+something+that+looks+secure%3F;Can+a+small%2C+understandable+system+change+how+you+build+the+next%3F" alt="Typing SVG" />
+</a>
 
-- How much does a system's claimed capability diverge from what you can actually verify it did?
-- How cheap is it, in practice, to break something that looks secure?
-- Can a system small enough to understand completely change how you build the next one?
+</div>
 
 *the entries below are attempts at pieces of these, from different angles.*
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff41,100:0f0f0f&height=2&section=header" width="100%"/>
 
 ### log
 
@@ -37,25 +36,41 @@
 `method` content sealed client-side, unlocked only past a chosen timestamp.
 `status` <img src="./assets/pulse-active.svg" width="10" height="10"> in progress · private
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff41,100:0f0f0f&height=2&section=header" width="100%"/>
 
 ### instruments
 
-```
-ai / ml     python · pytorch · tensorflow · langchain · rag · opencv
-security    kali linux · linux
-tooling     docker · git
-```
+<p align="left">
+<img src="https://img.shields.io/badge/-Python-000000?style=flat-square&logo=python&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-PyTorch-000000?style=flat-square&logo=pytorch&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-TensorFlow-000000?style=flat-square&logo=tensorflow&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-LangChain-000000?style=flat-square&logo=langchain&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-OpenCV-000000?style=flat-square&logo=opencv&logoColor=39FF14" />
+<br/>
+<img src="https://img.shields.io/badge/-Kali_Linux-000000?style=flat-square&logo=kalilinux&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-Linux-000000?style=flat-square&logo=linux&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-Docker-000000?style=flat-square&logo=docker&logoColor=39FF14" />
+<img src="https://img.shields.io/badge/-Git-000000?style=flat-square&logo=git&logoColor=39FF14" />
+</p>
 
----
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff41,100:0f0f0f&height=2&section=header" width="100%"/>
 
 ### margin note
+
 currently reading into large language models, retrieval-augmented generation, secure application development, cloud, and system design. <img src="./assets/cursor.svg" width="6" height="12">
 
 ### reach
-[linkedin.com/in/denyelchokeynamgyal](https://www.linkedin.com/in/denyelchokeynamgyal)
 
----
+<p align="left">
+<a href="https://www.linkedin.com/in/denyelchokeynamgyal">
+<img src="https://img.shields.io/badge/-LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=39FF14" />
+</a>
+<a href="https://github.com/denyelcnamgyal42-hash">
+<img src="https://img.shields.io/badge/-GitHub-000000?style=flat-square&logo=github&logoColor=39FF14" />
+</a>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff41,100:0f0f0f&height=2&section=header" width="100%"/>
 
 ### recent activity
 
@@ -63,3 +78,16 @@ currently reading into large language models, retrieval-augmented generation, se
   <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only" alt="Contribution graph, animated" width="100%" />
   <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg#gh-light-mode-only" alt="Contribution graph, animated" width="100%" />
 </p>
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=denyelcnamgyal42-hash&show_icons=true&theme=dark&bg_color=0f0f0f&title_color=39ff14&icon_color=39ff14&text_color=c9ffd8&border_color=00ff41&hide_border=false" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=denyelcnamgyal42-hash&layout=compact&theme=dark&bg_color=0f0f0f&title_color=39ff14&text_color=c9ffd8&border_color=00ff41&hide_border=false" width="38%" />
+</p>
+
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=denyelcnamgyal42-hash&theme=dark&background=0f0f0f&stroke=00ff41&ring=39ff14&fire=39ff14&currStreakLabel=39ff14&sideLabels=c9ffd8&dates=c9ffd8&border=00ff41" width="60%" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:00ff41,100:0f0f0f&height=100&section=footer" width="100%"/>
+
+</div>
