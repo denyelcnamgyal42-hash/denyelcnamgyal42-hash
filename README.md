@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:00ff41,100:0f0f0f&height=180&section=header&text=denyel%20chokey%20namgyal&fontSize=36&fontColor=00ff41&animation=fadeIn&fontAlignY=38&desc=research%20notebook%20—%20AI%20/%20cybersecurity%20/%20systems&descAlignY=58&descSize=15&descColor=39ff14" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:0a2e0f,100:0d0d0d&height=180&section=header&text=denyel%20chokey%20namgyal&fontSize=36&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=research%20notebook%20—%20AI%20/%20cybersecurity%20/%20systems&descAlignY=58&descSize=15&descColor=39ff14" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=900&color=39FF14&center=true&vCenter=true&width=650&height=40&lines=How+much+does+claimed+capability+diverge+from+verified+behavior%3F;How+cheap+is+it+to+break+something+that+looks+secure%3F;Can+a+small%2C+understandable+system+change+how+you+build+the+next%3F" alt="Typing SVG" />
@@ -87,6 +87,14 @@ currently reading into large language models, retrieval-augmented generation, se
 <p align="center">
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=denyelcnamgyal42-hash&theme=dark&background=0f0f0f&stroke=00ff41&ring=39ff14&fire=39ff14&currStreakLabel=39ff14&sideLabels=c9ffd8&dates=c9ffd8&border=00ff41" width="60%" />
 </p>
+
+> live and always current — no editing required as new work happens
+
+<p align="center">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=denyelcnamgyal42-hash&theme=react-dark&bg_color=0f0f0f&color=39ff14&line=00ff41&point=c9ffd8&area=true&area_color=00ff41&hide_border=true&custom_title=recent%20commit%20activity" width="100%" />
+</p>
+
+<sub>this graph pulls straight from the GitHub API on every page load — new repos and commits show up here automatically, nothing to edit. for a curated project showcase that also needs zero README maintenance, GitHub's native <b>pinned repositories</b> (Profile → Customize your pins) sit above this README and update the moment you re-pin something.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,50:00ff41,100:0f0f0f&height=100&section=footer" width="100%"/>
 
