@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="226" viewBox="0 0 600 226" role="img" aria-labelledby="title desc">
+  <title id="title">Learning log — understand, build, test, repeat</title>
+  <desc id="desc">An animated terminal reveals three interests: applied AI, language tools, and secure systems. Decorative animation, not a live session.</desc>
+  <style>
+    .panel { fill: #101a22; stroke: #293b44; } .bar { stroke: #293b44; }
+    .text { fill: #dce7e9; } .muted { fill: #93aab4; } .accent { fill: #76e5c0; }
+    .line1 { animation: reveal1 18s linear infinite; }
+    .line2 { animation: reveal2 18s linear infinite; }
+    .line3 { animation: reveal3 18s linear infinite; }
+    .cursor { animation: blink 1.2s steps(2, jump-none) infinite; }
+    @keyframes reveal1 { 0%,5% { clip-path: inset(0 100% 0 0); } 20%,100% { clip-path: inset(0 0 0 0); } }
+    @keyframes reveal2 { 0%,23% { clip-path: inset(0 100% 0 0); } 38%,100% { clip-path: inset(0 0 0 0); } }
+    @keyframes reveal3 { 0%,41% { clip-path: inset(0 100% 0 0); } 56%,100% { clip-path: inset(0 0 0 0); } }
+    @keyframes blink { to { opacity: 0; } }
+    @media (prefers-color-scheme: light) {
+      .panel { fill: #f6f8fa; stroke: #d1d9e0; } .bar { stroke: #d1d9e0; }
+      .text { fill: #24343d; } .muted { fill: #526974; } .accent { fill: #14785f; }
+    }
+    @media (prefers-reduced-motion: reduce) { .line1, .line2, .line3, .cursor { animation: none; } }
+  </style>
+  <rect class="panel" x="1" y="1" width="598" height="224" rx="12"/>
+  <path class="bar" d="M1 44H599"/>
+  <g fill="#637b87"><circle cx="24" cy="23" r="4"/><circle cx="40" cy="23" r="4"/><circle cx="56" cy="23" r="4"/></g>
+  <g font-family="Consolas, 'Courier New', monospace">
+    <text class="muted" x="300" y="28" text-anchor="middle" font-size="13">denyel / learning.log</text>
+    <text class="accent" x="26" y="80" font-size="19">&gt; explore --ai --security</text>
+    <text class="text line1" x="26" y="115" font-size="21">01  Learn through experience.</text>
+    <text class="text line2" x="26" y="146" font-size="21">02  Build useful language tools.</text>
+    <text class="text line3" x="26" y="177" font-size="21">03  Question system assumptions.</text>
+    <text class="muted" x="26" y="208" font-size="13">UNDERSTAND / BUILD / TEST / REPEAT</text>
+    <path class="cursor accent" d="M565 196h9v14h-9z"/>
+  </g>
+</svg>
+

@@ -1,32 +1,63 @@
 <p align="center">
+  <picture>
+  <source media="(max-width: 600px)" srcset="./assets/banner-mobile.svg" />
   <img src="./assets/banner.svg" alt="Denyel Chokey Namgyal — curious about intelligence, serious about security. Computer Science student from Bhutan." width="100%" />
+  </picture>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/denyelchokeynamgyal">LinkedIn</a>
   &nbsp; / &nbsp;
-  <a href="https://github.com/denyelcnamgyal42-hash?tab=repositories">Explore my repositories</a>
+  <a href="#selected-work">Selected work</a>
   &nbsp; / &nbsp;
-  <a href="#currently-exploring">What I'm learning</a>
+  <a href="https://github.com/denyelcnamgyal42-hash?tab=repositories">All repositories</a>
 </p>
 
 <br />
 
-### A little context
+### Hi, I'm Denyel.
 
-I'm **Denyel**, a Computer Science student at **Gyalpozhing College of Information Technology, Bhutan**, specializing in **AI & Data Science** and developing my skills in **Cybersecurity**.
+I'm a Computer Science student at **Gyalpozhing College of Information Technology, Bhutan**, specializing in **AI & Data Science** and developing my skills in **Cybersecurity**.
 
-I like taking an idea apart, building a small version, and understanding why it works. I'm especially interested in the overlap between intelligent systems and secure software—and language technology that makes digital services more accessible in Bhutan.
+I learn by building: an agent that plays Snake, a conversational booking assistant, and experiments in password security. I'm interested in intelligent systems, secure software, and language technology that makes digital services more accessible in Bhutan.
+
+<br />
+
+### Selected work
+
+#### 01 / Learning through play
+
+**[Snake · Reinforcement Learning](https://github.com/denyelcnamgyal42-hash/snake_game_reinforcement_learning)**
+
+A Snake-playing agent with a PyTorch Q-network, experience replay, and a training loop. An exploration of how actions, rewards, and repeated experience shape behavior.
+
+`Python` `PyTorch` `Reinforcement learning`
+
+#### 02 / From conversation to action
+
+**[WhatsApp Booking Assistant](https://github.com/denyelcnamgyal42-hash/final123_bot)**
+
+A conversational room-booking project with LangChain tools, a Flask webhook, availability checks, and a booking approval workflow.
+
+`Python` `LangChain` `Flask` `WhatsApp`
+
+#### 03 / Security through experimentation
+
+**[Password Security Research Lab](https://github.com/denyelcnamgyal42-hash/password-security-research-lab)**
+
+A controlled comparison of MD5, SHA-256, bcrypt, and Argon2id using synthetic accounts. Explores password recovery, hashing costs, and defensive storage practices.
+
+`Python` `Password hashing` `Security research`
 
 <br />
 
 ### Currently exploring
 
-| | Focus | Questions I'm working through |
-| :--- | :--- | :--- |
-| **01** | **Applied AI** | How can machine learning and computer vision solve useful, everyday problems? |
-| **02** | **Language & retrieval** | How do we build and evaluate LLM applications with better context? |
-| **03** | **Secure systems** | How can I build applications that are easier to understand, maintain, and secure? |
+<p>
+  <img src="./assets/learning-terminal.svg" alt="Learning log: applied AI, useful language applications, and understanding secure systems. Understand, build, test, repeat." width="100%" />
+</p>
+
+**Next questions:** better retrieval and evaluation for LLM applications, secure application design, and the Linux and cloud fundamentals underneath them.
 
 <br />
 
@@ -58,8 +89,23 @@ Football, aerospace, and small, consistent improvements. Long term, I want to co
 
 <br />
 
+### One contribution at a time
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" />
+  <img alt="An animated snake traces my GitHub contribution graph." src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
+<p align="center"><sub>A little progress, repeated. Contribution animation refreshed daily.</sub></p>
+
+<br />
+
 ---
 
 <p align="center">
-  <sub>Built on curiosity. Improved through practice.</sub>
+  <b>Let's talk about something worth building.</b><br />
+  <a href="https://www.linkedin.com/in/denyelchokeynamgyal">Connect on LinkedIn</a>
+  <br /><br />
+  <sub>From Bhutan, with curiosity.</sub>
 </p>
