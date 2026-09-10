@@ -1,66 +1,68 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:283457,100:1a1b26&height=210&section=header&text=Denyel%20Chokey%20Namgyal&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Data%20Science%20%C2%B7%20Cybersecurity%20%C2%B7%20Systems&descAlignY=58&descSize=16&descColor=7aa2f7" width="100%" alt="Denyel Chokey Namgyal" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:283457,100:1a1b26&height=220&section=header&text=Denyel%20Chokey%20Namgyal&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Data%20Science%20%C2%B7%20Cybersecurity%20%C2%B7%20Systems&descAlignY=60&descSize=16&descColor=7aa2f7" width="100%" alt="Denyel Chokey Namgyal banner" />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2600&pause=900&color=7AA2F7&center=true&vCenter=true&width=850&lines=Computer+Science+student+from+Bhutan;Building+at+the+intersection+of+AI+%2B+Security;Understand+%E2%86%92+Build+%E2%86%92+Test+%E2%86%92+Improve" alt="Typing SVG" />
-</a>
+<br />
 
-<br/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2600&pause=900&color=7AA2F7&center=true&vCenter=true&width=850&lines=Computer+Science+student+from+Bhutan;Building+at+the+intersection+of+AI+%2B+Security;Understand+%E2%86%92+Build+%E2%86%92+Test+%E2%86%92+Improve" alt="Typing animation" />
+
+<br /><br />
 
 <a href="https://www.linkedin.com/in/denyelchokeynamgyal">
-  <img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=flat-square&logo=linkedin&logoColor=7dcfff" alt="LinkedIn" />
+  <img src="https://img.shields.io/badge/LinkedIn-1a1b26?style=for-the-badge&logo=linkedin&logoColor=7dcfff" alt="LinkedIn" />
 </a>
 <a href="https://github.com/denyelcnamgyal42-hash?tab=repositories">
-  <img src="https://img.shields.io/badge/Repositories-1a1b26?style=flat-square&logo=github&logoColor=7dcfff" alt="Repositories" />
+  <img src="https://img.shields.io/badge/Repositories-1a1b26?style=for-the-badge&logo=github&logoColor=7dcfff" alt="Repositories" />
 </a>
 
 </div>
 
 ---
 
-### `whoami`
+## `whoami`
 
 I'm a Computer Science student at **Gyalpozhing College of Information Technology, Bhutan**, specializing in **AI & Data Science** while developing my skills in **Cybersecurity**.
 
-I like learning by understanding how things work, building small systems, testing them, breaking assumptions, and improving them. I'm especially interested in the space where **intelligent systems, secure software, and practical engineering** meet.
+I enjoy learning by understanding how things work, building practical systems, testing them, questioning assumptions, and improving them.  
+I'm especially interested in the space where **intelligent systems, secure software, and practical engineering** meet.
 
 ```text
 $ focus --current
-AI / Data Science      → machine learning, LLMs, RAG, computer vision
-Cybersecurity          → secure development, web security, Linux, labs
-Systems                → APIs, databases, containers, cloud fundamentals
-Long-term direction    → build useful technology and strengthen digital security in Bhutan
+
+AI / Data Science   -> machine learning, LLMs, RAG, computer vision
+Cybersecurity       -> secure development, web security, Linux, labs
+Systems             -> APIs, databases, containers, cloud fundamentals
+Long-term goal      -> build useful technology and strengthen digital security in Bhutan
 ```
 
 ---
 
-### `current_focus`
+## `current_focus`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-#### 🤖 AI & Language Systems
+### 🤖 AI & Language Systems
 
-- Machine learning & deep learning
-- LLM application engineering
-- Retrieval-Augmented Generation
-- Embeddings & evaluation
-- Computer vision
-- Low-resource language technology
+* Machine Learning & Deep Learning
+* LLM Application Engineering
+* Retrieval-Augmented Generation
+* Embeddings & Evaluation
+* Computer Vision
+* Low-resource Language Technology
 
 </td>
 <td width="50%" valign="top">
 
-#### 🔐 Security & Systems
+### 🔐 Security & Systems
 
-- Secure application development
-- Web security fundamentals
-- Linux & system internals
-- Authorized security labs
-- Docker & deployment
-- Cloud and backend systems
+* Secure Application Development
+* Web Security Fundamentals
+* Linux & System Internals
+* Authorized Security Labs
+* Docker & Deployment
+* Cloud and Backend Systems
 
 </td>
 </tr>
@@ -68,13 +70,13 @@ Long-term direction    → build useful technology and strengthen digital securi
 
 ---
 
-### `workbench`
+## `workbench`
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-1a1b26?style=flat-square&logo=python&logoColor=7aa2f7" alt="Python" />
   <img src="https://img.shields.io/badge/PyTorch-1a1b26?style=flat-square&logo=pytorch&logoColor=7aa2f7" alt="PyTorch" />
   <img src="https://img.shields.io/badge/TensorFlow-1a1b26?style=flat-square&logo=tensorflow&logoColor=7aa2f7" alt="TensorFlow" />
-  <img src="https://img.shields.io/badge/LangChain-1a1b26?style=flat-square&logo=langchain&logoColor=7aa2f7" alt="LangChain" />
+  <img src="https://img.shields.io/badge/LangChain-1a1b26?style=flat-square&logoColor=7aa2f7" alt="LangChain" />
   <img src="https://img.shields.io/badge/OpenCV-1a1b26?style=flat-square&logo=opencv&logoColor=7aa2f7" alt="OpenCV" />
   <img src="https://img.shields.io/badge/FastAPI-1a1b26?style=flat-square&logo=fastapi&logoColor=7aa2f7" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Docker-1a1b26?style=flat-square&logo=docker&logoColor=bb9af7" alt="Docker" />
@@ -85,36 +87,37 @@ Long-term direction    → build useful technology and strengthen digital securi
 
 <details>
 <summary><b>more tools I work with</b></summary>
-<br/>
 
-| Area | Tools |
-| :--- | :--- |
-| **ML / Data** | Scikit-learn, Pandas, NumPy, YOLO |
-| **LLM applications** | RAG, FAISS, Chroma, Ollama, Groq |
-| **Backend / Data** | Flask, Node.js / Express, PostgreSQL, MySQL, MongoDB |
-| **Security labs** | Nmap, Burp Suite, OWASP ZAP, Kali Linux |
+<br />
+
+| Area                 | Tools                                                |
+| :------------------- | :--------------------------------------------------- |
+| **ML / Data**        | Scikit-learn, Pandas, NumPy, YOLO                    |
+| **LLM Applications** | RAG, FAISS, Chroma, Ollama, Groq                     |
+| **Backend / Data**   | Flask, Node.js / Express, PostgreSQL, MySQL, MongoDB |
+| **Security Labs**    | Nmap, Burp Suite, OWASP ZAP, Kali Linux              |
 
 </details>
 
 ---
 
-### `learning_log`
+## `learning_log`
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=1000&color=7DCFFF&background=1A1B2600&vCenter=true&width=950&height=105&lines=%24+cat+learning.log;LLMs+%2B+retrieval+%2B+evaluation;secure+application+design+%2B+Linux+fundamentals;small+consistent+improvements+%3E+short+bursts+of+motivation;%24+_" alt="Learning terminal" />
-</a>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=1000&color=7DCFFF&center=true&vCenter=true&width=950&height=110&lines=%24+cat+learning.log;LLMs+%2B+retrieval+%2B+evaluation;secure+application+design+%2B+Linux+fundamentals;small+consistent+improvements+%3E+short+bursts+of+motivation;%24+_" alt="Learning log animation" />
+</div>
 
 My approach is simple: **understand → build → test → review → repeat**.
 
 ---
 
-### `one_contribution_at_a_time`
+## `one_contribution_at_a_time`
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" alt="Snake animation moving through Denyel's GitHub contribution graph" width="100%" />
+    <img alt="Snake animation moving through GitHub contribution graph" src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 </p>
 
@@ -122,27 +125,27 @@ My approach is simple: **understand → build → test → review → repeat**.
   <sub>Small progress, repeated. 🐍</sub>
 </p>
 
-> **Idea for the next upgrade:** make the snake physically grow when it eats contribution cells. That part cannot be implemented from `README.md` alone; the SVG generator/workflow has to create the growing animation first.
-
 ---
 
-### `away_from_keyboard`
+## `away_from_keyboard`
 
-Football, aerospace, and the discipline of improving through small, consistent efforts. Long term, I want to contribute to practical technology and digital security in Bhutan.
+Football, aerospace, and the discipline of improving through small, consistent efforts.
+Long term, I want to contribute to practical technology and digital security in Bhutan.
 
 ---
 
 <div align="center">
 
-**Let's talk about something worth building.**
+### Let's talk about something worth building.
 
 <a href="https://www.linkedin.com/in/denyelchokeynamgyal">LinkedIn</a>
-&nbsp;·&nbsp;
-<a href="https://github.com/denyelcnamgyal42-hash?tab=repositories">Repositories</a>
+ ·  <a href="https://github.com/denyelcnamgyal42-hash?tab=repositories">Repositories</a>
 
-<br/><br/>
+<br /><br />
 
 <sub>from Bhutan, with curiosity 🇧🇹</sub>
+
+<br /><br />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:7aa2f7,100:1a1b26&height=110&section=footer" width="100%" alt="Footer" />
 
