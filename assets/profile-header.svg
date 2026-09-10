@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">Denyel Chokey Namgyal</title>
+  <desc id="desc">Computer Science student from Bhutan. A small blue signal travels across mountain contours.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#152337"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1200" height="340" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .signal { stroke-dasharray: 3 27 3 1500; animation: travel 14s linear infinite; }
+    .star { animation: glow 6s ease-in-out infinite; }
+    .star-late { animation-delay: -3s; }
+    @keyframes travel { from { stroke-dashoffset: 1533; } to { stroke-dashoffset: 0; } }
+    @keyframes glow { 0%, 100% { opacity: .25; } 50% { opacity: .8; } }
+    @media (prefers-reduced-motion: reduce) { .signal, .star { animation: none; } .signal { stroke-dashoffset: -300; } }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#sky)"/>
+    <g fill="#8bbcff">
+      <circle class="star" cx="860" cy="61" r="2"/>
+      <circle class="star star-late" cx="1096" cy="92" r="2"/>
+      <circle cx="1010" cy="43" r="1.5" opacity=".3"/>
+    </g>
+    <path d="M720 340L836 208L884 253L987 122L1070 226L1120 180L1240 330V340Z" fill="#182c42"/>
+    <path d="M884 253L987 122L1070 226M963 153L984 169L1000 149" fill="none" stroke="#375674" stroke-width="1.5"/>
+    <path d="M640 340L783 284L837 309L940 232L1046 302L1130 255L1230 306V340Z" fill="#102030"/>
+    <path d="M-20 314Q200 288 420 311T730 303L783 284L837 309L940 232L1046 302L1130 255L1230 306" fill="none" stroke="#355778" stroke-width="1.5"/>
+    <path class="signal" d="M-20 314Q200 288 420 311T730 303L783 284L837 309L940 232L1046 302L1130 255L1230 306" pathLength="1533" fill="none" stroke="#8bbcff" stroke-width="3" stroke-linecap="round"/>
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="56" y="64" fill="#91a7bf" font-size="16" letter-spacing="3">BHUTAN</text>
+      <text x="52" y="137" fill="#f0f6fc" font-size="58" font-weight="700" letter-spacing="-1.5">Denyel Chokey</text>
+      <text x="52" y="202" fill="#f0f6fc" font-size="58" font-weight="700" letter-spacing="-1.5">Namgyal<tspan fill="#8bbcff">.</tspan></text>
+      <text x="56" y="254" fill="#b2c1d2" font-size="22">Computer Science · AI · Security</text>
+    </g>
+  </g>
+</svg>
