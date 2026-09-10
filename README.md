@@ -1,23 +1,37 @@
 <img src="./assets/profile-header.svg" width="100%" alt="Denyel Chokey Namgyal — Computer Science student from Bhutan" />
 
-[LinkedIn](https://www.linkedin.com/in/denyelchokeynamgyal) · [Repositories](https://github.com/denyelcnamgyal42-hash?tab=repositories)
+<p align="center">
+  <a href="https://www.linkedin.com/in/denyelchokeynamgyal">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/denyelcnamgyal42-hash?tab=repositories">Explore my repositories</a>
+</p>
 
-I'm Denyel, a Computer Science student at **Gyalpozhing College of Information Technology** in Bhutan. I specialize in AI & Data Science, and I'm also learning about cybersecurity.
+## A little about me
 
-I like figuring out how things work by building something small and testing it. Lately, that means working with language models, retrieval, and the backend systems around them.
+I'm Denyel, a Computer Science student at **Gyalpozhing College of Information Technology** in Bhutan. My specialization is **AI & Data Science**, and I'm developing my skills in cybersecurity alongside it.
 
-### What I'm learning
+I like understanding what's happening underneath the tools I use. Building a small system, testing it, and figuring out why it breaks is a big part of how I learn. I'm interested in the whole process—from a model or an idea to the API, database, and deployment that make it usable.
 
-- **AI:** building LLM applications, evaluating retrieval, and exploring computer vision.
-- **Security:** web security, secure application design, and Linux through hands-on labs.
-- **Language technology:** how AI can be useful for low-resource languages.
+Long term, I'd like to contribute to useful technology and stronger digital security in Bhutan. Low-resource language technology is one area I want to explore further.
 
-### Tools I use
+## What I'm spending time on
 
-Python, PyTorch, FastAPI, Docker, Linux, and Git.
+- **Language models & retrieval** — building LLM applications and learning how to evaluate their answers.
+- **Machine learning & vision** — working with data, training models, and understanding their limitations.
+- **Security & systems** — secure application design, web security labs, Linux, and backend development.
+
+### Questions I'm exploring
+
+- How do you tell whether retrieval actually improved an answer?
+- What makes a small application easier to secure from the start?
+- How can language tools be useful when training data is limited?
+
+## My workbench
+
+I work with **Python, PyTorch, FastAPI, Docker, Linux, and Git**. The rest depends on what I'm building or learning.
 
 <details>
-<summary>A few more from my workbench</summary>
+<summary>More tools, grouped by what I use them for</summary>
 
 | Area | Tools |
 | :--- | :--- |
@@ -28,9 +42,13 @@ Python, PyTorch, FastAPI, Docker, Linux, and Git.
 
 </details>
 
-### Outside of code
+## Away from the keyboard
 
-I follow football and aerospace. Over time, I'd like to use what I learn to build useful technology and help improve digital security in Bhutan.
+Football and aerospace are two of my interests outside computing. I also value making steady progress—working through something a little at a time is an approach I try to carry into my studies and projects.
+
+If you're working on language technology, AI applications, or security, I'd be happy to compare notes. You can reach me on [LinkedIn](https://www.linkedin.com/in/denyelchokeynamgyal).
+
+---
 
 <details>
 <summary>My contributions, with a snake</summary>

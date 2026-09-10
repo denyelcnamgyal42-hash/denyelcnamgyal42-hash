@@ -1,31 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
   <title id="title">Denyel Chokey Namgyal</title>
-  <desc id="desc">Computer Science student from Bhutan. A small blue signal travels across mountain contours.</desc>
+  <desc id="desc">Computer Science student from Bhutan. A satellite circles above Himalayan-inspired mountains while a ground station sends out gentle signal rings.</desc>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#0d1117"/>
       <stop offset="1" stop-color="#152337"/>
     </linearGradient>
+    <radialGradient id="atmosphere">
+      <stop stop-color="#58a6ff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
     <clipPath id="frame"><rect width="1200" height="340" rx="16"/></clipPath>
   </defs>
   <style>
     .signal { stroke-dasharray: 3 27 3 1500; animation: travel 14s linear infinite; }
     .star { animation: glow 6s ease-in-out infinite; }
     .star-late { animation-delay: -3s; }
+    .satellite { animation: orbit 24s linear infinite; }
+    .beacon { transform-box: fill-box; transform-origin: center; animation: transmit 6s ease-out infinite; }
+    .beacon-late { animation-delay: -3s; }
+    @keyframes orbit { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes transmit { 0% { transform: scale(.3); opacity: 0; } 15% { opacity: .6; } 100% { transform: scale(2.4); opacity: 0; } }
     @keyframes travel { from { stroke-dashoffset: 1533; } to { stroke-dashoffset: 0; } }
     @keyframes glow { 0%, 100% { opacity: .25; } 50% { opacity: .8; } }
-    @media (prefers-reduced-motion: reduce) { .signal, .star { animation: none; } .signal { stroke-dashoffset: -300; } }
+    @media (prefers-reduced-motion: reduce) { .signal, .star, .satellite, .beacon { animation: none; } .signal { stroke-dashoffset: -300; } .beacon { opacity: .2; } .beacon-late { display: none; } }
   </style>
   <g clip-path="url(#frame)">
     <rect width="1200" height="340" fill="url(#sky)"/>
+    <ellipse cx="966" cy="150" rx="260" ry="195" fill="url(#atmosphere)"/>
     <g fill="#8bbcff">
       <circle class="star" cx="860" cy="61" r="2"/>
       <circle class="star star-late" cx="1096" cy="92" r="2"/>
       <circle cx="1010" cy="43" r="1.5" opacity=".3"/>
+      <circle cx="786" cy="105" r="1" opacity=".4"/>
+      <circle cx="1140" cy="49" r="1" opacity=".4"/>
+      <circle class="star star-late" cx="916" cy="31" r="1.5"/>
+    </g>
+    <g transform="translate(956 142) rotate(-18) scale(1 .42)">
+      <circle r="176" fill="none" stroke="#74a9da" stroke-opacity=".2" stroke-width="1.5"/>
+      <circle r="176" fill="none" stroke="#8bbcff" stroke-opacity=".15" stroke-width="1" stroke-dasharray="2 18"/>
+      <g class="satellite">
+        <g transform="translate(176 0) scale(1 2.38)">
+          <circle r="18" fill="#8bbcff" opacity=".07"/>
+          <path d="M-15-5H-6V5H-15ZM6-5H15V5H6Z" fill="#3872a8" stroke="#91c9ff" stroke-width=".8"/>
+          <path d="M-11-5V5M11-5V5M-15 0H15" stroke="#91c9ff" stroke-width=".6"/>
+          <rect x="-4" y="-6" width="8" height="12" rx="2" fill="#d4e8ff"/>
+          <path d="M0-6V-11M-3-11H3" stroke="#d4e8ff" stroke-width="1"/>
+        </g>
+      </g>
     </g>
     <path d="M720 340L836 208L884 253L987 122L1070 226L1120 180L1240 330V340Z" fill="#182c42"/>
     <path d="M884 253L987 122L1070 226M963 153L984 169L1000 149" fill="none" stroke="#375674" stroke-width="1.5"/>
     <path d="M640 340L783 284L837 309L940 232L1046 302L1130 255L1230 306V340Z" fill="#102030"/>
+    <g fill="none" stroke="#8bbcff">
+      <circle class="beacon" cx="940" cy="218" r="12" stroke-width=".8"/>
+      <circle class="beacon beacon-late" cx="940" cy="218" r="12" stroke-width=".8"/>
+      <path d="M940 232V219M935 232H945" stroke-width="1.5"/>
+    </g>
+    <circle cx="940" cy="218" r="2.5" fill="#c5e1ff"/>
     <path d="M-20 314Q200 288 420 311T730 303L783 284L837 309L940 232L1046 302L1130 255L1230 306" fill="none" stroke="#355778" stroke-width="1.5"/>
     <path class="signal" d="M-20 314Q200 288 420 311T730 303L783 284L837 309L940 232L1046 302L1130 255L1230 306" pathLength="1533" fill="none" stroke="#8bbcff" stroke-width="3" stroke-linecap="round"/>
     <g font-family="Arial, Helvetica, sans-serif">
