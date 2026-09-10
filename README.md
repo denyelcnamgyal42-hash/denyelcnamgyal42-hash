@@ -1,4 +1,4 @@
-<img src="./assets/profile-header.svg" width="100%" alt="Denyel Chokey Namgyal — Computer Science student from Bhutan" />
+<img src="./assets/orbital-header.svg" width="100%" alt="Denyel Chokey Namgyal — Computer Science student from Bhutan" />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/denyelchokeynamgyal">LinkedIn</a>
