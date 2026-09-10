@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,45:161b22,100:1f6feb&height=230&section=header&text=Denyel%20Chokey%20Namgyal&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=AI%20%26%20Data%20Science%20%C2%B7%20Cybersecurity%20%C2%B7%20Systems&descAlignY=57&descSize=16&descColor=8b949e" width="100%" alt="Denyel Chokey Namgyal" />
+<img src="./assets/profile-header.svg" width="100%" alt="Denyel Chokey Namgyal" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=17&duration=2600&pause=850&color=58A6FF&center=true&vCenter=true&repeat=true&width=900&height=45&lines=Computer+Science+student+from+Bhutan;Building+at+the+intersection+of+AI+%2B+Security;Understand+%E2%86%92+Build+%E2%86%92+Test+%E2%86%92+Improve" alt="Typing introduction" />
 
