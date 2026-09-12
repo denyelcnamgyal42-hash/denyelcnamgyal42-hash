@@ -16,9 +16,15 @@ Long term, I'd like to contribute to useful technology and stronger digital secu
 
 ## What I'm spending time on
 
-- **Language models & retrieval** — building LLM applications and learning how to evaluate their answers.
-- **Machine learning & vision** — working with data, training models, and understanding their limitations.
-- **Security & systems** — secure application design, web security labs, Linux, and backend development.
+<p align="center">
+  <img src="./assets/learning-terminal.svg" width="100%" alt="A terminal typing out three questions: does retrieval improve the answer, what secures a small app from day one, and can language tools help with less data" />
+</p>
+
+<img src="./assets/pulse-active.svg" width="10" height="10" alt="" /> **Language models & retrieval** — building LLM applications and learning how to evaluate their answers.
+
+<img src="./assets/pulse-active.svg" width="10" height="10" alt="" /> **Machine learning & vision** — working with data, training models, and understanding their limitations.
+
+<img src="./assets/pulse-active.svg" width="10" height="10" alt="" /> **Security & systems** — secure application design, web security labs, Linux, and backend development.
 
 ### Questions I'm exploring
 
