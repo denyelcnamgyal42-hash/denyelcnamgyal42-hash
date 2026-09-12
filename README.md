@@ -14,6 +14,10 @@ I like understanding what's happening underneath the tools I use. Building a sma
 
 Long term, I'd like to contribute to useful technology and stronger digital security in Bhutan. Low-resource language technology is one area I want to explore further.
 
+<p align="center">
+  <img src="./assets/section-divider.svg" width="100%" height="28" alt="" />
+</p>
+
 ## What I'm spending time on
 
 <p align="center">
@@ -34,6 +38,10 @@ Long term, I'd like to contribute to useful technology and stronger digital secu
 
 ## My workbench
 
+<p align="center">
+  <img src="./assets/workbench-strip.svg" width="100%" alt="Python, PyTorch, FastAPI, Docker, Linux, and Git, each highlighted in turn" />
+</p>
+
 I work with **Python, PyTorch, FastAPI, Docker, Linux, and Git**. The rest depends on what I'm building or learning.
 
 <details>
@@ -47,6 +55,10 @@ I work with **Python, PyTorch, FastAPI, Docker, Linux, and Git**. The rest depen
 | Security labs | Nmap, Burp Suite, OWASP ZAP, Kali Linux |
 
 </details>
+
+<p align="center">
+  <img src="./assets/section-divider.svg" width="100%" height="28" alt="" />
+</p>
 
 ## Away from the keyboard
 

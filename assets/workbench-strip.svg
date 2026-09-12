@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="48" viewBox="0 0 690 48" role="img" aria-labelledby="wbt wbd">
+  <title id="wbt">Primary tools</title>
+  <desc id="wbd">Python, PyTorch, FastAPI, Docker, Linux, and Git, highlighted one at a time in a slow rotating sequence. Decorative — the same tools are named in the sentence above.</desc>
+  <style>
+    .chip { fill: none; stroke: #d1d9e0; stroke-width: 1; }
+    .label { fill: #24343d; font-family: Arial, Helvetica, sans-serif; font-size: 15px; text-anchor: middle; }
+    .glow { fill: rgba(20,120,95,.1); stroke: #14785f; stroke-width: 1.5; opacity: 0; animation: glow 9s ease-in-out infinite; }
+    .g0 { animation-delay: 0s; }
+    .g1 { animation-delay: 1.5s; }
+    .g2 { animation-delay: 3s; }
+    .g3 { animation-delay: 4.5s; }
+    .g4 { animation-delay: 6s; }
+    .g5 { animation-delay: 7.5s; }
+    @keyframes glow { 0%, 83%, 100% { opacity: 0; } 91% { opacity: 1; } }
+    @media (prefers-color-scheme: dark) {
+      .chip { stroke: #293b44; }
+      .label { fill: #dce7e9; }
+      .glow { fill: rgba(118,229,192,.12); stroke: #76e5c0; }
+    }
+    @media (prefers-reduced-motion: reduce) { .glow { animation: none; opacity: 0; } }
+  </style>
+  <g>
+    <rect class="chip" x="10" y="6" width="100" height="36" rx="9"/>
+    <rect class="glow g0" x="10" y="6" width="100" height="36" rx="9"/>
+    <text class="label" x="60" y="29">Python</text>
+  </g>
+  <g>
+    <rect class="chip" x="124" y="6" width="100" height="36" rx="9"/>
+    <rect class="glow g1" x="124" y="6" width="100" height="36" rx="9"/>
+    <text class="label" x="174" y="29">PyTorch</text>
+  </g>
+  <g>
+    <rect class="chip" x="238" y="6" width="100" height="36" rx="9"/>
+    <rect class="glow g2" x="238" y="6" width="100" height="36" rx="9"/>
+    <text class="label" x="288" y="29">FastAPI</text>
+  </g>
+  <g>
+    <rect class="chip" x="352" y="6" width="100" height="36" rx="9"/>
+    <rect class="glow g3" x="352" y="6" width="100" height="36" rx="9"/>
+    <text class="label" x="402" y="29">Docker</text>
+  </g>
+  <g>
+    <rect class="chip" x="466" y="6" width="100" height="36" rx="9"/>
+    <rect class="glow g4" x="466" y="6" width="100" height="36" rx="9"/>
+    <text class="label" x="516" y="29">Linux</text>
+  </g>
+  <g>
+    <rect class="chip" x="580" y="6" width="100" height="36" rx="9"/>
+    <rect class="glow g5" x="580" y="6" width="100" height="36" rx="9"/>
+    <text class="label" x="630" y="29">Git</text>
+  </g>
+</svg>

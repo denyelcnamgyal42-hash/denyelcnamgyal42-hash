@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="28" viewBox="0 0 960 28" role="img" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="sweepGrad" x1="0" x2="1" y1="0" y2="0">
+      <stop class="stop-edge" offset="0" stop-opacity="0"/>
+      <stop class="stop-mid" offset=".5" stop-opacity=".9"/>
+      <stop class="stop-edge" offset="1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .track { stroke: #d7dee6; stroke-width: 1; }
+    .stop-edge { stop-color: #14785f; }
+    .stop-mid { stop-color: #14785f; }
+    .sweep { animation: travel 7s linear infinite; }
+    @keyframes travel { 0% { transform: translateX(-260px); } 100% { transform: translateX(960px); } }
+    @media (prefers-color-scheme: dark) {
+      .track { stroke: #26334a; }
+      .stop-edge, .stop-mid { stop-color: #76e5c0; }
+    }
+    @media (prefers-reduced-motion: reduce) { .sweep { animation: none; opacity: 0; } }
+  </style>
+  <line class="track" x1="0" y1="14" x2="960" y2="14"/>
+  <g class="sweep">
+    <rect x="0" y="10" width="260" height="8" fill="url(#sweepGrad)"/>
+  </g>
+</svg>
