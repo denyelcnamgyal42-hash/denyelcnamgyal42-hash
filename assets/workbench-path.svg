@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="76" viewBox="0 0 720 76" role="img" aria-labelledby="wbt wbd">
+  <title id="wbt">Primary tools</title>
+  <desc id="wbd">Python, PyTorch, FastAPI, Docker, Linux, and Git, marked as waypoints along a line and highlighted one at a time. Decorative — the same tools are named in the sentence below.</desc>
+  <style>
+    .track { stroke: #c9d3dc; stroke-width: 1; stroke-dasharray: 7 6; animation: flow 3.4s linear infinite; }
+    .label { fill: #24343d; font-size: 14px; text-anchor: middle; }
+    .node { fill: #9a6b12; animation: pulse 7.2s ease-in-out infinite; }
+    @keyframes flow { to { stroke-dashoffset: -26; } }
+    @keyframes pulse { 0%, 83%, 100% { opacity: .45; } 91% { opacity: 1; } }
+    .n0 { animation-delay: 0s; } .n1 { animation-delay: 1.2s; } .n2 { animation-delay: 2.4s; }
+    .n3 { animation-delay: 3.6s; } .n4 { animation-delay: 4.8s; } .n5 { animation-delay: 6s; }
+    @media (prefers-color-scheme: dark) {
+      .track { stroke: #26334a; } .label { fill: #dce7e9; } .node { fill: #f2c572; }
+    }
+    @media (prefers-reduced-motion: reduce) { .track, .node { animation: none; } }
+  </style>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <line class="track" x1="20" y1="30" x2="700" y2="30"/>
+    <circle class="node n0" cx="45" cy="30" r="5"/>
+    <circle class="node n1" cx="173" cy="30" r="5"/>
+    <circle class="node n2" cx="301" cy="30" r="5"/>
+    <circle class="node n3" cx="429" cy="30" r="5"/>
+    <circle class="node n4" cx="557" cy="30" r="5"/>
+    <circle class="node n5" cx="685" cy="30" r="5"/>
+
+    <text class="label" x="45" y="60">Python</text>
+    <text class="label" x="173" y="60">PyTorch</text>
+    <text class="label" x="301" y="60">FastAPI</text>
+    <text class="label" x="429" y="60">Docker</text>
+    <text class="label" x="557" y="60">Linux</text>
+    <text class="label" x="685" y="60">Git</text>
+  </g>
+</svg>

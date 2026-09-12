@@ -1,23 +1,37 @@
 # Profile design and maintenance
 
-The profile pairs a Bhutan-inspired orbital header with readable project descriptions, an animated "questions" terminal, an animated tool strip, and a contribution snake. Two thin animated dividers tie the sections together visually. Text and project links remain native Markdown so they stay readable on small screens and usable with assistive technology; every decorative SVG duplicates its message as plain text nearby.
+The profile pairs a Bhutan-inspired header with readable project descriptions and a contribution snake. Text and project links remain native Markdown so they stay readable on small screens and usable with assistive technology; every decorative SVG duplicates its message as plain text nearby.
 
-## Assets
+There are two complete sets of decorative animated assets in `assets/`. Only one set is wired into `README.md` at a time — the other stays in the repo, unused, so you can switch back by changing a handful of `<img src>` paths rather than digging through git history.
 
-- `assets/earth-night-header.svg`: the top banner — a satellite drifts along an orbital trail above Earth's night side, an occasional shooting star crosses the sky, and a handful of stars twinkle. Respects reduced motion (all animation, including the twinkle, is disabled, and the meteor is hidden, when the viewer's OS requests it).
-- `assets/learning-terminal.svg`: an animated terminal that types out the three questions from "Questions I'm exploring." Purely decorative — the same three questions are listed as plain Markdown directly below it. Adapts to light/dark and respects reduced motion.
-- `assets/workbench-strip.svg`: a row of six chips (Python, PyTorch, FastAPI, Docker, Linux, Git) that highlight one at a time in a slow rotating sweep. Decorative — the tools are also named in the sentence below it. Adapts to light/dark and respects reduced motion.
-- `assets/section-divider.svg`: a thin horizontal rule with a soft teal highlight that sweeps across it on a loop, used between major sections instead of a plain `<hr>`. Purely decorative (`aria-hidden`, empty `alt`). Adapts to light/dark and respects reduced motion.
-- `assets/pulse-active.svg`: a small pulsing dot used as a bullet marker next to the three areas in "What I'm spending time on," signaling that all three are current, active focus areas (not a claim about any one project's status).
+## Active set: "constellation / flowing path"
+
+A minimal line-art style: dashed lines that continuously flow (like current along a wire) rather than glow or type, gold/amber accent, a hand-drawn mountain ridge and star constellation instead of a literal space scene.
+
+- `assets/header-constellation.svg`: the top banner — a line-art Himalayan ridge and a small dipper-style constellation, both traced in flowing dashed light, with two accent stars that pulse.
+- `assets/divider-path.svg`: a thin dashed rule with one small dot continuously traveling along it, used between major sections instead of blank space.
+- `assets/questions-path.svg`: three waypoints on a line, each pulsing in turn, with the matching question from "Questions I'm exploring" printed underneath — the visual and the text always show the same three questions.
+- `assets/workbench-path.svg`: six waypoints (Python, PyTorch, FastAPI, Docker, Linux, Git) on a line, each pulsing in turn.
+- `assets/pulse-node.svg`: a small pulsing amber dot, used as a bullet marker next to the three areas in "What I'm spending time on."
+
+## Kept but inactive: "orbital / terminal"
+
+The earlier design — a satellite drifting over an Earth's-night-side horizon, a typing terminal, and glowing chip highlights, in a teal accent. Nothing in `README.md` currently points at these, but they're fully working if you want them back.
+
+- `assets/earth-night-header.svg`, `assets/learning-terminal.svg`, `assets/section-divider.svg`, `assets/workbench-strip.svg`, `assets/pulse-active.svg`.
+
+**To switch back:** in `README.md`, swap `header-constellation.svg` → `earth-night-header.svg`, `divider-path.svg` → `section-divider.svg` (both occurrences), `questions-path.svg` → `learning-terminal.svg`, `workbench-path.svg` → `workbench-strip.svg`, and `pulse-node.svg` → `pulse-active.svg` (all three occurrences). Update the `alt` text on each `<img>` to match, since the two sets describe themselves differently.
+
+## Shared conventions (apply to both sets)
+
 - The contribution snake is generated daily by `.github/workflows/contribution-snake.yml` and published to the `output` branch. Its two images support light and dark themes; that animation is Platane/snk's own and isn't guaranteed to respect reduced motion.
-
-All custom graphics (header, terminal, workbench strip, divider, pulse dot) use local, hand-written SVG — no external fonts, scripts, or image-generation services — and animate with plain CSS/SMIL inside the SVG file, which is what lets them animate at all inside a GitHub-rendered `<img>`. The terminal, workbench strip, and dividers share one accent color (`#14785f` light / `#76e5c0` dark) as a consistent secondary palette; the header keeps its own blue "space" palette since it's a distinct hero element.
-
-**Important:** none of this appears on the live GitHub profile page until the changes are committed and pushed to `main` — editing the files locally (or here) only updates the working copy.
+- All custom graphics use local, hand-written SVG — no external fonts, scripts, or image-generation services — and animate with plain CSS inside the SVG file, which is what lets them animate at all inside a GitHub-rendered `<img>`.
+- Every custom SVG respects `prefers-reduced-motion` (animation is disabled rather than just slowed) and adapts colors to `prefers-color-scheme` where it renders on the page background (the headers are an intentional exception — always dark, like a hero image).
+- Every decorative SVG has a plain-Markdown equivalent nearby — the terminal/path questions duplicate the "Questions I'm exploring" list, the chip/waypoint strip duplicates the "Python, PyTorch, ..." sentence — so nothing is lost if the SVG fails to load or animation is off.
 
 ## Keeping the profile useful
 
-Update the three selected projects when stronger work becomes available. Describe what each project does and what it demonstrates; avoid unverified performance claims. Update the learning paragraph, the terminal's three questions, and the plain-text "Questions I'm exploring" list together when your interests change — they're meant to stay in sync. Same for the workbench strip and the "Python, PyTorch, ..." sentence beneath it.
+Update the three selected projects when stronger work becomes available. Describe what each project does and what it demonstrates; avoid unverified performance claims. Whichever asset set is active, update its questions/tools graphic and the matching plain-text list together when your interests change — they're meant to stay in sync.
 
 The next useful improvements are in the linked repositories:
 
@@ -37,4 +51,4 @@ These are recommendations, not changes made to those repositories or your accoun
 
 ## Validation
 
-Preview at desktop and phone widths, in both color schemes. Check SVG parsing, image loading, project links, reduced-motion behavior (browser/OS setting for "reduce motion"), the terminal's text and the workbench strip's tools against their plain-text equivalents, and the contribution workflow after changes. A local Markdown preview approximates GitHub styling; the published GitHub page is the final rendering authority — and only reflects what's been pushed to `main`.
+Preview at desktop and phone widths, in both color schemes. Check SVG parsing, image loading, project links, reduced-motion behavior (browser/OS setting for "reduce motion"), the animated text/labels against their plain-text equivalents, and the contribution workflow after changes. A local Markdown preview approximates GitHub styling; the published GitHub page is the final rendering authority — and only reflects what's been pushed to `main`.

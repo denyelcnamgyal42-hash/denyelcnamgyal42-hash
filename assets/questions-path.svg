@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="150" viewBox="0 0 900 150" role="img" aria-labelledby="title desc">
+  <title id="title">Questions I'm exploring</title>
+  <desc id="desc">Three waypoints along a line, each lighting up in turn: whether retrieval improves an answer, what secures a small app from day one, and whether language tools can help with less data. Decorative — the same questions appear as plain text below.</desc>
+  <style>
+    .track { stroke: #c9d3dc; stroke-width: 1; stroke-dasharray: 7 6; animation: flow 3.4s linear infinite; }
+    .idx { fill: #7a8b98; font-size: 12px; letter-spacing: 1px; }
+    .label { fill: #24343d; font-size: 14px; }
+    .node { fill: #9a6b12; animation: pulse 4.5s ease-in-out infinite; }
+    @keyframes flow { to { stroke-dashoffset: -26; } }
+    @keyframes pulse { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
+    .n0 { animation-delay: 0s; } .n1 { animation-delay: -1.5s; } .n2 { animation-delay: -3s; }
+    @media (prefers-color-scheme: dark) {
+      .track { stroke: #26334a; } .idx { fill: #7f93a8; } .label { fill: #dce7e9; } .node { fill: #f2c572; }
+    }
+    @media (prefers-reduced-motion: reduce) { .track, .node { animation: none; } }
+  </style>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <line class="track" x1="60" y1="40" x2="840" y2="40"/>
+    <circle class="node n0" cx="150" cy="40" r="5"/>
+    <circle class="node n1" cx="450" cy="40" r="5"/>
+    <circle class="node n2" cx="750" cy="40" r="5"/>
+
+    <text class="idx" x="150" y="22" text-anchor="middle">01</text>
+    <text class="idx" x="450" y="22" text-anchor="middle">02</text>
+    <text class="idx" x="750" y="22" text-anchor="middle">03</text>
+
+    <text class="label" x="150" y="72" text-anchor="middle">
+      <tspan x="150" dy="0">Does retrieval improve</tspan>
+      <tspan x="150" dy="20">the answer?</tspan>
+    </text>
+    <text class="label" x="450" y="72" text-anchor="middle">
+      <tspan x="450" dy="0">What secures a small</tspan>
+      <tspan x="450" dy="20">app from day one?</tspan>
+    </text>
+    <text class="label" x="750" y="72" text-anchor="middle">
+      <tspan x="750" dy="0">Can language tools help</tspan>
+      <tspan x="750" dy="20">with less data?</tspan>
+    </text>
+  </g>
+</svg>

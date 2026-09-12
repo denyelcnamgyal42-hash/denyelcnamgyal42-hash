@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+  <style>
+    .p { fill: #9a6b12; animation: pulse 2.4s ease-in-out infinite; }
+    @media (prefers-color-scheme: dark) { .p { fill: #f2c572; } }
+    @media (prefers-reduced-motion: reduce) { .p { animation: none; } }
+    @keyframes pulse { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+  </style>
+  <circle class="p" cx="10" cy="10" r="5"/>
+</svg>
