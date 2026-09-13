@@ -1,33 +1,35 @@
 # Profile design and maintenance
 
-The profile pairs a Bhutan-inspired header with readable project descriptions and a contribution snake. Text and project links remain native Markdown so they stay readable on small screens and usable with assistive technology; every decorative SVG duplicates its message as plain text nearby.
+The profile pairs a space-themed header with readable project descriptions and a contribution snake. Text and project links remain native Markdown so they stay readable on small screens and usable with assistive technology; every decorative SVG duplicates its message as plain text nearby.
 
-There are two complete sets of decorative animated assets in `assets/`. Only one set is wired into `README.md` at a time — the other stays in the repo, unused, so you can switch back by changing a handful of `<img src>` paths rather than digging through git history.
+There are **three** complete sets of decorative animated assets in `assets/`. Only one set is wired into `README.md` at a time — the other two stay in the repo, unused, so you can switch by changing a handful of `<img src>` paths rather than digging through git history.
 
-## Active set: "constellation / flowing path"
+## Active set: "orbit" (ringed planet / nebula / orbital arcs)
 
-A minimal line-art style: dashed lines that continuously flow (like current along a wire) rather than glow or type, gold/amber accent, a hand-drawn mountain ridge and star constellation instead of a literal space scene.
+The most fully "space" of the three: soft nebula clouds, a layered starfield, a ringed planet at the frame's edge with a small probe that continuously orbits it (via an SVG motion path), and occasional meteors. Dividers, questions, and workbench use matching low orbital-arc paths (not straight lines) with a soft blue glow-pulse at each waypoint, echoing the header's orbit.
 
-- `assets/header-constellation.svg`: the top banner — a line-art Himalayan ridge and a small dipper-style constellation, both traced in flowing dashed light, with two accent stars that pulse.
-- `assets/divider-path.svg`: a thin dashed rule with one small dot continuously traveling along it, used between major sections instead of blank space.
-- `assets/questions-path.svg`: three waypoints on a line, each pulsing in turn, with the matching question from "Questions I'm exploring" printed underneath — the visual and the text always show the same three questions.
-- `assets/workbench-path.svg`: six waypoints (Python, PyTorch, FastAPI, Docker, Linux, Git) on a line, each pulsing in turn.
-- `assets/pulse-node.svg`: a small pulsing amber dot, used as a bullet marker next to the three areas in "What I'm spending time on."
+- `assets/header-orbit.svg`: the top banner.
+- `assets/divider-orbit.svg`: a dotted rule with a small glowing comet traveling along it.
+- `assets/questions-orbit.svg`: three points on a low arc, each glow-pulsing in turn, with the matching question from "Questions I'm exploring" printed underneath.
+- `assets/workbench-orbit.svg`: six points on a low arc (Python, PyTorch, FastAPI, Docker, Linux, Git), each glow-pulsing in turn.
+- `assets/pulse-star.svg`: a small twinkling 4-point star, used as a bullet marker next to the three areas in "What I'm spending time on."
 
-## Kept but inactive: "orbital / terminal"
+## Kept but inactive
 
-The earlier design — a satellite drifting over an Earth's-night-side horizon, a typing terminal, and glowing chip highlights, in a teal accent. Nothing in `README.md` currently points at these, but they're fully working if you want them back.
+Two earlier designs are still in the repo, fully working, in case you want to switch back:
 
-- `assets/earth-night-header.svg`, `assets/learning-terminal.svg`, `assets/section-divider.svg`, `assets/workbench-strip.svg`, `assets/pulse-active.svg`.
+**"constellation / flowing path"** — line-art Himalayan ridge + dipper-style constellation, dashed lines that continuously flow, amber accent: `header-constellation.svg`, `divider-path.svg`, `questions-path.svg`, `workbench-path.svg`, `pulse-node.svg`.
 
-**To switch back:** in `README.md`, swap `header-constellation.svg` → `earth-night-header.svg`, `divider-path.svg` → `section-divider.svg` (both occurrences), `questions-path.svg` → `learning-terminal.svg`, `workbench-path.svg` → `workbench-strip.svg`, and `pulse-node.svg` → `pulse-active.svg` (all three occurrences). Update the `alt` text on each `<img>` to match, since the two sets describe themselves differently.
+**"orbital / terminal"** (the original) — a satellite drifting over Earth's night side, a typing terminal, glowing chip highlights, teal accent: `earth-night-header.svg`, `learning-terminal.svg`, `section-divider.svg`, `workbench-strip.svg`, `pulse-active.svg`.
 
-## Shared conventions (apply to both sets)
+**To switch sets:** in `README.md`, swap all six `<img src>` values (header, divider ×2, questions, workbench, pulse-dot ×3) to the other set's filenames, and update each `alt` text to match — the three sets describe themselves differently. `git log -p -- README.md` shows each past swap if you want exact wording to copy.
+
+## Shared conventions (all three sets)
 
 - The contribution snake is generated daily by `.github/workflows/contribution-snake.yml` and published to the `output` branch. Its two images support light and dark themes; that animation is Platane/snk's own and isn't guaranteed to respect reduced motion.
-- All custom graphics use local, hand-written SVG — no external fonts, scripts, or image-generation services — and animate with plain CSS inside the SVG file, which is what lets them animate at all inside a GitHub-rendered `<img>`.
-- Every custom SVG respects `prefers-reduced-motion` (animation is disabled rather than just slowed) and adapts colors to `prefers-color-scheme` where it renders on the page background (the headers are an intentional exception — always dark, like a hero image).
-- Every decorative SVG has a plain-Markdown equivalent nearby — the terminal/path questions duplicate the "Questions I'm exploring" list, the chip/waypoint strip duplicates the "Python, PyTorch, ..." sentence — so nothing is lost if the SVG fails to load or animation is off.
+- All custom graphics use local, hand-written SVG — no external fonts, scripts, or image-generation services — and animate with plain CSS (plus one SMIL `animateMotion` for the orbiting probe) inside the SVG file, which is what lets them animate at all inside a GitHub-rendered `<img>`.
+- Every custom SVG respects `prefers-reduced-motion` (animation is disabled rather than just slowed — the orbiting probe and meteor are hidden outright) and adapts colors to `prefers-color-scheme` where it renders on the page background (the headers are an intentional exception — always dark, like a hero image).
+- Every decorative SVG has a plain-Markdown equivalent nearby — the questions/tools graphics duplicate the "Questions I'm exploring" list and the "Python, PyTorch, ..." sentence — so nothing is lost if the SVG fails to load or animation is off.
 
 ## Keeping the profile useful
 

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="76" viewBox="0 0 720 76" role="img" aria-labelledby="wbt wbd">
+  <title id="wbt">Primary tools</title>
+  <desc id="wbd">Python, PyTorch, FastAPI, Docker, Linux, and Git, marked along a low orbital arc and each highlighted in turn. Decorative — the same tools are named in the sentence below.</desc>
+  <style>
+    .track { stroke: #c9d3dc; stroke-width: 1.2; stroke-dasharray: 1.5 6; fill: none; }
+    .label { fill: #24343d; font-size: 14px; text-anchor: middle; }
+    .node { fill: #8bbcff; }
+    .glow { fill: #8bbcff; opacity: 0; animation: pulse 7.2s ease-in-out infinite; }
+    @keyframes pulse { 0%, 83%, 100% { opacity: 0; transform: scale(1); } 91% { opacity: .4; transform: scale(2.4); } }
+    .p0 { animation-delay: 0s; } .p1 { animation-delay: 1.2s; } .p2 { animation-delay: 2.4s; }
+    .p3 { animation-delay: 3.6s; } .p4 { animation-delay: 4.8s; } .p5 { animation-delay: 6s; }
+    @media (prefers-color-scheme: dark) {
+      .track { stroke: #26334a; } .label { fill: #dce7e9; } .node, .glow { fill: #a9cbff; }
+    }
+    @media (prefers-reduced-motion: reduce) { .glow { animation: none; opacity: 0; } }
+  </style>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <path class="track" d="M20 50C200 10 520 10 700 50"/>
+
+    <circle class="glow p0" cx="45" cy="43" r="4.5" style="transform-origin:45px 43px"/>
+    <circle class="node" cx="45" cy="43" r="4"/>
+    <circle class="glow p1" cx="173" cy="27" r="4.5" style="transform-origin:173px 27px"/>
+    <circle class="node" cx="173" cy="27" r="4"/>
+    <circle class="glow p2" cx="301" cy="16" r="4.5" style="transform-origin:301px 16px"/>
+    <circle class="node" cx="301" cy="16" r="4"/>
+    <circle class="glow p3" cx="429" cy="17" r="4.5" style="transform-origin:429px 17px"/>
+    <circle class="node" cx="429" cy="17" r="4"/>
+    <circle class="glow p4" cx="557" cy="29" r="4.5" style="transform-origin:557px 29px"/>
+    <circle class="node" cx="557" cy="29" r="4"/>
+    <circle class="glow p5" cx="685" cy="48" r="4.5" style="transform-origin:685px 48px"/>
+    <circle class="node" cx="685" cy="48" r="4"/>
+
+    <text class="label" x="45" y="70">Python</text>
+    <text class="label" x="173" y="70">PyTorch</text>
+    <text class="label" x="301" y="70">FastAPI</text>
+    <text class="label" x="429" y="70">Docker</text>
+    <text class="label" x="557" y="70">Linux</text>
+    <text class="label" x="685" y="70">Git</text>
+  </g>
+</svg>

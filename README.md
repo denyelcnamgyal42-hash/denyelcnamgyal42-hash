@@ -1,4 +1,4 @@
-<img src="./assets/header-constellation.svg" width="100%" alt="Denyel Chokey Namgyal — Computer Science student from Bhutan" />
+<img src="./assets/header-orbit.svg" width="100%" alt="Denyel Chokey Namgyal — Computer Science student from Bhutan" />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/denyelchokeynamgyal">LinkedIn</a>
@@ -15,20 +15,20 @@ I like understanding what's happening underneath the tools I use. Building a sma
 Long term, I'd like to contribute to useful technology and stronger digital security in Bhutan. Low-resource language technology is one area I want to explore further.
 
 <p align="center">
-  <img src="./assets/divider-path.svg" width="100%" height="24" alt="" />
+  <img src="./assets/divider-orbit.svg" width="100%" height="24" alt="" />
 </p>
 
 ## What I'm spending time on
 
 <p align="center">
-  <img src="./assets/questions-path.svg" width="100%" alt="Three waypoints lighting up in turn: does retrieval improve the answer, what secures a small app from day one, and can language tools help with less data" />
+  <img src="./assets/questions-orbit.svg" width="100%" alt="Three points along a low orbital arc lighting up in turn: does retrieval improve the answer, what secures a small app from day one, and can language tools help with less data" />
 </p>
 
-<img src="./assets/pulse-node.svg" width="10" height="10" alt="" /> **Language models & retrieval** — building LLM applications and learning how to evaluate their answers.
+<img src="./assets/pulse-star.svg" width="10" height="10" alt="" /> **Language models & retrieval** — building LLM applications and learning how to evaluate their answers.
 
-<img src="./assets/pulse-node.svg" width="10" height="10" alt="" /> **Machine learning & vision** — working with data, training models, and understanding their limitations.
+<img src="./assets/pulse-star.svg" width="10" height="10" alt="" /> **Machine learning & vision** — working with data, training models, and understanding their limitations.
 
-<img src="./assets/pulse-node.svg" width="10" height="10" alt="" /> **Security & systems** — secure application design, web security labs, Linux, and backend development.
+<img src="./assets/pulse-star.svg" width="10" height="10" alt="" /> **Security & systems** — secure application design, web security labs, Linux, and backend development.
 
 ### Questions I'm exploring
 
@@ -39,7 +39,7 @@ Long term, I'd like to contribute to useful technology and stronger digital secu
 ## My workbench
 
 <p align="center">
-  <img src="./assets/workbench-path.svg" width="100%" alt="Python, PyTorch, FastAPI, Docker, Linux, and Git, marked as waypoints and each highlighted in turn" />
+  <img src="./assets/workbench-orbit.svg" width="100%" alt="Python, PyTorch, FastAPI, Docker, Linux, and Git, marked along a low orbital arc and each highlighted in turn" />
 </p>
 
 I work with **Python, PyTorch, FastAPI, Docker, Linux, and Git**. The rest depends on what I'm building or learning.
@@ -57,7 +57,7 @@ I work with **Python, PyTorch, FastAPI, Docker, Linux, and Git**. The rest depen
 </details>
 
 <p align="center">
-  <img src="./assets/divider-path.svg" width="100%" height="24" alt="" />
+  <img src="./assets/divider-orbit.svg" width="100%" height="24" alt="" />
 </p>
 
 ## Away from the keyboard

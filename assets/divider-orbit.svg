@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="24" viewBox="0 0 960 24" role="img" aria-hidden="true" focusable="false">
+  <defs>
+    <radialGradient id="cometGlow" cx=".5" cy=".5" r=".5">
+      <stop stop-color="#bcd8ff" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#bcd8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    .track { stroke: #d7dee6; stroke-width: 1; stroke-dasharray: 2 5; }
+    .comet { animation: travel 7s linear infinite; }
+    @keyframes travel { 0% { transform: translateX(-14px); } 100% { transform: translateX(974px); } }
+    @media (prefers-color-scheme: dark) { .track { stroke: #26334a; } }
+    @media (prefers-reduced-motion: reduce) { .comet { animation: none; opacity: 0; } }
+  </style>
+  <line class="track" x1="0" y1="12" x2="960" y2="12"/>
+  <g class="comet">
+    <circle cx="0" cy="12" r="9" fill="url(#cometGlow)"/>
+    <circle cx="0" cy="12" r="2.2" fill="#eaf3ff"/>
+  </g>
+</svg>

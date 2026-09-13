@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="20" height="20">
+  <style>
+    .s { fill: #8bbcff; animation: tw 2.2s ease-in-out infinite; }
+    @media (prefers-color-scheme: dark) { .s { fill: #a9cbff; } }
+    @media (prefers-reduced-motion: reduce) { .s { animation: none; } }
+    @keyframes tw { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
+  </style>
+  <path class="s" d="M10 3L11.6 8.4L17 10L11.6 11.6L10 17L8.4 11.6L3 10L8.4 8.4Z"/>
+</svg>
