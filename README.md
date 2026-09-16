@@ -1,7 +1,7 @@
 <img src="./assets/header-orbit.svg" width="100%" alt="Denyel Chokey Namgyal — Computer Science student from Bhutan" />
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/denyelchokeynamgyal">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/denyelcnamgyal">LinkedIn</a>
   &nbsp;·&nbsp;
   <a href="https://github.com/denyelcnamgyal42-hash?tab=repositories">Explore my repositories</a>
 </p>
