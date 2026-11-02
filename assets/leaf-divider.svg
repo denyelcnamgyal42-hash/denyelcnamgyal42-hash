@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 44" width="1200" height="44" role="img" aria-label="Botanical divider">
+<defs><linearGradient id="line"><stop stop-color="#95aa87" stop-opacity="0"/><stop offset=".5" stop-color="#95aa87" stop-opacity=".7"/><stop offset="1" stop-color="#95aa87" stop-opacity="0"/></linearGradient></defs>
+<path d="M35 23H535M665 23h500" stroke="url(#line)" stroke-width="1.5"/>
+<g fill="#79996a"><path d="M600 28 Q585 4 572 14 Q575 31 600 28"/><path d="M600 28 Q617 2 631 12 Q623 31 600 28"/><path d="M600 27 Q595 18 599 9 Q607 17 600 27"/></g>
+<g fill="#dbc98b"><circle cx="555" cy="22" r="2"/><circle cx="645" cy="22" r="2"/></g>
+<g fill="#91b28b"><circle cx="535" cy="23" r="1.8"><animate attributeName="opacity" values=".25;1;.25" dur="5s" repeatCount="indefinite"/></circle><circle cx="665" cy="23" r="1.8"><animate attributeName="opacity" values="1;.25;1" dur="5s" repeatCount="indefinite"/></circle></g>
+</svg>
