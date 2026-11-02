@@ -1,80 +1,76 @@
+<!-- A quiet countryside, animated in SVG. Original artwork created for this profile. -->
 <p align="center">
-  <img src="./assets/night-sky.svg" width="100%" alt="Denyel — AI, software and cybersecurity. Minimal anime-inspired night sky with a moon and mountains." />
+  <img src="./assets/header-meadow.svg" width="100%" alt="Denyel — a peaceful animated countryside with green hills, drifting clouds and a small traveler" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/denyelcnamgyal">LinkedIn</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/denyelcnamgyal42-hash?tab=repositories">Projects</a>
-  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/denyelcnamgyal">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://github.com/denyelcnamgyal42-hash?tab=repositories">Projects</a> &nbsp;·&nbsp;
   <a href="https://github.com/denyelcnamgyal42-hash">GitHub</a>
 </p>
 
-<p align="center"><sub>「 一歩ずつ 」 — one step at a time</sub></p>
+### 🌱 A little about me
 
-## Hello, I'm Denyel 👋
+Hello, I'm **Denyel**, a Computer Science student at **Gyalpozhing College of Information Technology**, Bhutan.
 
-I'm a **Computer Science student at Gyalpozhing College of Information Technology, Bhutan**, specializing in **AI & Data Science** while exploring **cybersecurity**.
+I'm studying **AI & Data Science** and exploring **cybersecurity**. I enjoy making things work from end to end: collecting data, training models, writing APIs, building systems and learning why they break.
 
-I enjoy building things from the ground up, understanding how they work, and learning from what breaks. I’m especially drawn to projects that connect machine learning with real applications—from the model to the API, database, and deployment.
+I'm especially interested in building useful technology for Bhutan, including tools for low-resource languages and more secure digital systems.
 
-My long-term goal is to build useful technology and contribute to a more secure digital future for Bhutan.
+<p align="center"><img src="./assets/divider-leaf.svg" width="100%" alt="" /></p>
 
-<p align="center"><img src="./assets/night-divider.svg" width="100%" alt="A thin celestial divider" /></p>
+### 🍃 What I'm growing
 
-## Currently exploring
+<p align="center"><img src="./assets/focus-garden.svg" width="100%" alt="Language and AI, Vision and ML, Secure systems" /></p>
 
-- **Language AI** — code-mixed Dzongkha–English text, token identification, and low-resource NLP.
-- **Applied AI** — LLM applications, retrieval, computer vision, and model evaluation.
-- **Cybersecurity** — secure coding, web security, Linux, and practical security labs.
+- **Language & AI:** low-resource NLP, retrieval and thoughtful LLM applications.
+- **Vision & machine learning:** experiments, evaluation and bringing models into usable tools.
+- **Secure systems:** Linux, secure backend development and practical security labs.
 
-## Selected projects
+### 📖 A few things I've built
 
-| Project | What I built / explored |
-| :-- | :-- |
-| **DzonglishNLP** | A low-resource, Romanized Dzongkha–English NLP pipeline, starting with token-level language identification and spelling normalization. |
-| **Smart Attendance** | A computer-vision attendance system using object detection and face embeddings. |
-| **Bhutan Cultural Guide** | A retrieval-based assistant for exploring Bhutanese culture and heritage. |
-| **JobScoutAI** | A backend project for collecting, filtering, and matching entry-level job listings. |
+**[DzonglishNLP](https://github.com/denyelcnamgyal42-hash?tab=repositories)** — Working with Romanized Dzongkha–English text, token-level language identification and spelling variation.
 
-<p align="center"><img src="./assets/night-divider.svg" width="100%" alt="A thin celestial divider" /></p>
+**Smart Attendance** — Face detection and recognition using YOLO, FaceNet, Flask and MySQL.
 
-## My toolkit
+**JobScoutAI** — A job discovery and matching backend with FastAPI, PostgreSQL and ranking pipelines.
+
+<p align="center"><img src="./assets/divider-leaf.svg" width="100%" alt="" /></p>
+
+### 🧺 My little toolbox
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,flask,postgres,mysql,docker,linux,git,github,vscode&perline=12" alt="Python, PyTorch, TensorFlow, FastAPI, Flask, PostgreSQL, MySQL, Docker, Linux, Git, GitHub, and VS Code" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,fastapi,flask,docker,linux,postgres,mysql,git,github&perline=10" alt="Python, PyTorch, FastAPI, Flask, Docker, Linux, PostgreSQL, MySQL, Git and GitHub" />
 </p>
 
 <details>
-  <summary>More tools I use</summary>
-  <br />
+<summary>Other tools I use</summary>
 
-  **ML & data:** Scikit-learn, Pandas, NumPy, OpenCV, YOLO  
-  **LLM & retrieval:** FAISS, LangChain, Ollama, Groq  
-  **Backend:** Node.js, Express, MongoDB  
-  **Security labs:** Nmap, Burp Suite, OWASP ZAP, Kali Linux
+| Area | Tools |
+| :--- | :--- |
+| Machine learning | Scikit-learn, NumPy, Pandas, TensorFlow, OpenCV, YOLO |
+| Language applications | LangChain, FAISS, Chroma, Ollama, Groq |
+| Backend | Node.js, Express, MongoDB |
+| Security learning | Nmap, Burp Suite, OWASP ZAP, Kali Linux |
+
 </details>
 
-## Beyond code
+### ☁️ Outside the screen
 
-When I'm not working on a project, you'll probably find me playing **football**, watching **anime**, or thinking about places I'd like to travel. I believe in consistency over shortcuts—small improvements, made regularly.
+Football, anime, travel and the occasional rabbit hole about how something works. I like the idea of getting a little better every day.
 
-<p align="center">
-  <img src="./assets/end-scene.svg" width="100%" alt="A quiet moonlit mountain horizon with the words: Keep moving forward." />
-</p>
+If you're building something in **AI, language technology or security**, I'd be happy to connect.
 
-<p align="center">
-  <sub>Open to connecting with people working on AI, language technology, and security.</sub>
-</p>
+<p align="center"><img src="./assets/footer-evening.svg" width="100%" alt="Evening hills and a thank-you message" /></p>
 
 <details>
-  <summary>✦ My contribution trail</summary>
-  <br />
-  <p align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" />
-      <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake animation" width="100%" />
-    </picture>
-  </p>
+<summary>🐍 My contribution garden (snake animation)</summary>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" alt="Animated GitHub contribution snake" width="100%" />
+  </picture>
+</p>
 </details>
