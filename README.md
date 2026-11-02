@@ -1,82 +1,80 @@
-<img src="./assets/header-orbit.svg" width="100%" alt="Denyel Chokey Namgyal — Computer Science student from Bhutan" />
+<p align="center">
+  <img src="./assets/night-sky.svg" width="100%" alt="Denyel — AI, software and cybersecurity. Minimal anime-inspired night sky with a moon and mountains." />
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/denyelcnamgyal">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/denyelcnamgyal42-hash?tab=repositories">Explore my repositories</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/denyelcnamgyal42-hash?tab=repositories">Projects</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/denyelcnamgyal42-hash">GitHub</a>
 </p>
 
-## A little about me
+<p align="center"><sub>「 一歩ずつ 」 — one step at a time</sub></p>
 
-I'm Denyel, a Computer Science student at **Gyalpozhing College of Information Technology** in Bhutan. My specialization is **AI & Data Science**, and I'm developing my skills in cybersecurity alongside it.
+## Hello, I'm Denyel 👋
 
-I like understanding what's happening underneath the tools I use. Building a small system, testing it, and figuring out why it breaks is a big part of how I learn. I'm interested in the whole process—from a model or an idea to the API, database, and deployment that make it usable.
+I'm a **Computer Science student at Gyalpozhing College of Information Technology, Bhutan**, specializing in **AI & Data Science** while exploring **cybersecurity**.
 
-Long term, I'd like to contribute to useful technology and stronger digital security in Bhutan. Low-resource language technology is one area I want to explore further.
+I enjoy building things from the ground up, understanding how they work, and learning from what breaks. I’m especially drawn to projects that connect machine learning with real applications—from the model to the API, database, and deployment.
+
+My long-term goal is to build useful technology and contribute to a more secure digital future for Bhutan.
+
+<p align="center"><img src="./assets/night-divider.svg" width="100%" alt="A thin celestial divider" /></p>
+
+## Currently exploring
+
+- **Language AI** — code-mixed Dzongkha–English text, token identification, and low-resource NLP.
+- **Applied AI** — LLM applications, retrieval, computer vision, and model evaluation.
+- **Cybersecurity** — secure coding, web security, Linux, and practical security labs.
+
+## Selected projects
+
+| Project | What I built / explored |
+| :-- | :-- |
+| **DzonglishNLP** | A low-resource, Romanized Dzongkha–English NLP pipeline, starting with token-level language identification and spelling normalization. |
+| **Smart Attendance** | A computer-vision attendance system using object detection and face embeddings. |
+| **Bhutan Cultural Guide** | A retrieval-based assistant for exploring Bhutanese culture and heritage. |
+| **JobScoutAI** | A backend project for collecting, filtering, and matching entry-level job listings. |
+
+<p align="center"><img src="./assets/night-divider.svg" width="100%" alt="A thin celestial divider" /></p>
+
+## My toolkit
 
 <p align="center">
-  <img src="./assets/divider-orbit.svg" width="100%" height="24" alt="" />
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,fastapi,flask,postgres,mysql,docker,linux,git,github,vscode&perline=12" alt="Python, PyTorch, TensorFlow, FastAPI, Flask, PostgreSQL, MySQL, Docker, Linux, Git, GitHub, and VS Code" />
 </p>
-
-## What I'm spending time on
-
-<p align="center">
-  <img src="./assets/questions-orbit.svg" width="100%" alt="Three points along a low orbital arc lighting up in turn: does retrieval improve the answer, what secures a small app from day one, and can language tools help with less data" />
-</p>
-
-<img src="./assets/pulse-star.svg" width="10" height="10" alt="" /> **Language models & retrieval** — building LLM applications and learning how to evaluate their answers.
-
-<img src="./assets/pulse-star.svg" width="10" height="10" alt="" /> **Machine learning & vision** — working with data, training models, and understanding their limitations.
-
-<img src="./assets/pulse-star.svg" width="10" height="10" alt="" /> **Security & systems** — secure application design, web security labs, Linux, and backend development.
-
-### Questions I'm exploring
-
-- How do you tell whether retrieval actually improved an answer?
-- What makes a small application easier to secure from the start?
-- How can language tools be useful when training data is limited?
-
-## My workbench
-
-<p align="center">
-  <img src="./assets/workbench-orbit.svg" width="100%" alt="Python, PyTorch, FastAPI, Docker, Linux, and Git, marked along a low orbital arc and each highlighted in turn" />
-</p>
-
-I work with **Python, PyTorch, FastAPI, Docker, Linux, and Git**. The rest depends on what I'm building or learning.
 
 <details>
-<summary>More tools, grouped by what I use them for</summary>
+  <summary>More tools I use</summary>
+  <br />
 
-| Area | Tools |
-| :--- | :--- |
-| Data & ML | Pandas, NumPy, Scikit-learn, TensorFlow, OpenCV, YOLO |
-| LLM applications | LangChain, FAISS, Chroma, Ollama, Groq |
-| Backend & databases | Flask, Node.js / Express, PostgreSQL, MySQL, MongoDB |
-| Security labs | Nmap, Burp Suite, OWASP ZAP, Kali Linux |
-
+  **ML & data:** Scikit-learn, Pandas, NumPy, OpenCV, YOLO  
+  **LLM & retrieval:** FAISS, LangChain, Ollama, Groq  
+  **Backend:** Node.js, Express, MongoDB  
+  **Security labs:** Nmap, Burp Suite, OWASP ZAP, Kali Linux
 </details>
 
+## Beyond code
+
+When I'm not working on a project, you'll probably find me playing **football**, watching **anime**, or thinking about places I'd like to travel. I believe in consistency over shortcuts—small improvements, made regularly.
+
 <p align="center">
-  <img src="./assets/divider-orbit.svg" width="100%" height="24" alt="" />
+  <img src="./assets/end-scene.svg" width="100%" alt="A quiet moonlit mountain horizon with the words: Keep moving forward." />
 </p>
 
-## Away from the keyboard
-
-Football and aerospace are two of my interests outside computing. I also value making steady progress—working through something a little at a time is an approach I try to carry into my studies and projects.
-
-If you're working on language technology, AI applications, or security, I'd be happy to compare notes. You can reach me on [LinkedIn](https://www.linkedin.com/in/denyelchokeynamgyal).
-
----
+<p align="center">
+  <sub>Open to connecting with people working on AI, language technology, and security.</sub>
+</p>
 
 <details>
-<summary>My contributions, with a snake</summary>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" />
-    <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" alt="Snake animation following my GitHub contributions" width="100%" />
-  </picture>
-</p>
-
+  <summary>✦ My contribution trail</summary>
+  <br />
+  <p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" />
+      <img src="https://raw.githubusercontent.com/denyelcnamgyal42-hash/denyelcnamgyal42-hash/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake animation" width="100%" />
+    </picture>
+  </p>
 </details>

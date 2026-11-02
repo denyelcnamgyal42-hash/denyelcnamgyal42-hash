@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="280" viewBox="0 0 900 280" role="img" aria-label="Night sky with moon over layered mountains; Denyel, AI, systems and security">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#080e1c"/><stop offset="1" stop-color="#182841"/></linearGradient>
+ <linearGradient id="moon" x2="0" y2="1"><stop stop-color="#fff9e8"/><stop offset="1" stop-color="#c8d9e5"/></linearGradient>
+ <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#1d3b52"/><stop offset="1" stop-color="#0b1729"/></linearGradient>
+ <clipPath id="clip"><rect width="900" height="280" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+ <rect width="900" height="280" fill="url(#sky)"/>
+ <g fill="#bfd6e4" opacity=".7">
+  <circle cx="55" cy="42" r="1"/><circle cx="102" cy="112" r="1.2"/><circle cx="150" cy="35" r=".9"/><circle cx="218" cy="87" r="1.1"/><circle cx="272" cy="40" r=".8"/><circle cx="346" cy="97" r="1"/><circle cx="460" cy="36" r="1"/><circle cx="526" cy="87" r="1.2"/><circle cx="603" cy="31" r="1"/><circle cx="677" cy="120" r="1"/><circle cx="805" cy="39" r="1"/><circle cx="850" cy="100" r="1"/>
+ </g>
+ <g stroke="#b9dce7" stroke-width="1" opacity=".5"><path d="M 135 75 v 10 m -5 -5 h 10"/><path d="M 731 43 v 10 m -5 -5 h 10"/><path d="M 408 61 v 8 m -4 -4 h 8"/></g>
+ <circle cx="705" cy="115" r="61" fill="#d6e4e9" opacity=".10"/>
+ <circle cx="705" cy="115" r="44" fill="url(#moon)"/>
+ <circle cx="689" cy="105" r="7" fill="#a5bac8" opacity=".17"/><circle cx="719" cy="128" r="5" fill="#a5bac8" opacity=".16"/>
+ <path d="M0 214 90 169 153 193 238 142 313 194 397 158 481 211 547 163 623 205 711 174 790 210 860 165 900 190 V280 H0Z" fill="#2b4960" opacity=".65"/>
+ <path d="M0 245 122 204 213 238 327 185 412 229 518 207 612 251 718 202 823 239 900 207 V280 H0Z" fill="url(#hill)"/>
+ <path d="M0 263 108 242 217 263 334 230 454 265 596 239 696 265 822 238 900 251 V280 H0Z" fill="#0a1322"/>
+ <g fill="none" stroke="#a7c8d4" opacity=".32"><path d="M 26 244 H 168"/><path d="M 740 258 H 881"/></g>
+ <text x="56" y="113" font-size="43" fill="#f6f8fc" font-family="Segoe UI,Arial,sans-serif" font-weight="700" letter-spacing="5">DENYEL</text>
+ <text x="58" y="142" font-size="13" fill="#b4cbd9" font-family="Segoe UI,Arial,sans-serif" letter-spacing="3.2">AI  /  SYSTEMS  /  SECURITY</text>
+ <rect x="57" y="164" width="44" height="2" rx="1" fill="#9cbccb"/>
+ <text x="58" y="190" font-size="12" fill="#b4cbd9" font-family="Segoe UI,Arial,sans-serif" letter-spacing="1.2">BUILD  ·  LEARN  ·  REPEAT</text>
+ <text x="841" y="35" text-anchor="end" font-size="12" fill="#d2deea" opacity=".72" font-family="sans-serif">夜 · 01</text>
+</g>
+</svg>

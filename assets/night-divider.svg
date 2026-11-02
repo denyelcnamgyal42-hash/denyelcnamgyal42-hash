@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 28" width="900" height="28" role="img" aria-label="Thin star divider">
+<path d="M30 14 H419 M481 14 H870" stroke="#6b90a8" stroke-width=".8" opacity=".55"/>
+<path d="M450 5 L453 11 L459 14 L453 17 L450 23 L447 17 L441 14 L447 11Z" fill="#9dbacb"/>
+<circle cx="432" cy="14" r="1.5" fill="#9dbacb"/><circle cx="468" cy="14" r="1.5" fill="#9dbacb"/>
+</svg>
